@@ -1,0 +1,2 @@
+- Define artifact type, components, labels, materials, presentation format before decoration.
+- Keep labels short; make component relationships obvious.

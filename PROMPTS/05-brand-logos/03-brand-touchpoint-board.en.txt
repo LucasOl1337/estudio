@@ -1,0 +1,15 @@
+Generate a premium brand touchpoint system board for [brand name] — not a single poster, but a full application set.
+
+Brand positioning: [industry / lifestyle / product category]
+Core temperament: [keyword1], [keyword2], [keyword3]
+Hero scene: [core product / service / experience] on [material surface / spatial scene], light [light], lens [lens].
+
+Touchpoints must include:
+- Main product hero shot
+- Packaging box / tote / cup / label / sticker / seal
+- Digital: website hero, social avatar, story frame
+- Physical: business card, conference badge (as fits brand)
+
+Shared palette and typography across all mockups; clean arrangement.
+Constraints: max touchpoints for readability; no mixed unrelated campaign styles.
+Output: multi-touchpoint rollout board.

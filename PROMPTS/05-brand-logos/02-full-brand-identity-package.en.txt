@@ -1,0 +1,23 @@
+You are a top brand-agency creative director. Deliver a full brand identity system for [business / product] covering logo, palette, type, tone of voice, and application touchpoints.
+
+Input:
+Business name: [name]
+One-line description: [description]
+Industry: [industry]
+Audience: [detailed]
+Competitors: [3–5]
+Brand personality: [5 keywords]
+Desired feelings: [trust / excitement / luxury / closeness / power / other]
+Liked visual identities: [3 refs]
+Disliked visual identities: [3 refs]
+
+Output board panels:
+- Logo / monogram system
+- Color chips with usage
+- Typography samples
+- Tone-of-voice examples (short)
+- Business card, avatar, app icon
+- 1–2 application mockups
+
+Constraints: one palette, one type logic, brand name spelled exactly; no unrelated logo variants.
+Output: single aligned identity package board.

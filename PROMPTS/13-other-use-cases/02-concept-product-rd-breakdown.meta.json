@@ -1,0 +1,14 @@
+{
+  "id": "13-other-use-cases/02-concept-product-rd-breakdown",
+  "category": "13-other-use-cases",
+  "title_zh": "概念产品研发拆解板模板",
+  "title_en": "Concept product R&D breakdown board template",
+  "kind": "text",
+  "chars_zh": 505,
+  "chars_en": 906,
+  "files": {
+    "zh": "02-concept-product-rd-breakdown.zh.txt",
+    "en": "02-concept-product-rd-breakdown.en.txt"
+  },
+  "queue_ready": true
+}

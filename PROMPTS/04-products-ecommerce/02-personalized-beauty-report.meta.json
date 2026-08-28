@@ -1,0 +1,14 @@
+{
+  "id": "04-products-ecommerce/02-personalized-beauty-report",
+  "category": "04-products-ecommerce",
+  "title_zh": "个人化美妆推荐报告模板",
+  "title_en": "Personalized beauty recommendation report template",
+  "kind": "text",
+  "chars_zh": 630,
+  "chars_en": 829,
+  "files": {
+    "zh": "02-personalized-beauty-report.zh.txt",
+    "en": "02-personalized-beauty-report.en.txt"
+  },
+  "queue_ready": true
+}

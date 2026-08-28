@@ -1,0 +1,14 @@
+{
+  "id": "03-posters-typography/04-multi-style-signature-poster",
+  "category": "03-posters-typography",
+  "title_zh": "多风格签名选择海报模板",
+  "title_en": "Multi-style signature selection poster template",
+  "kind": "text",
+  "chars_zh": 729,
+  "chars_en": 1708,
+  "files": {
+    "zh": "04-multi-style-signature-poster.zh.txt",
+    "en": "04-multi-style-signature-poster.en.txt"
+  },
+  "queue_ready": true
+}

@@ -1,0 +1,14 @@
+{
+  "id": "09-characters-people/02-action-breakdown-sheet",
+  "category": "09-characters-people",
+  "title_zh": "动作分解参考表模板",
+  "title_en": "Action breakdown reference sheet template",
+  "kind": "text",
+  "chars_zh": 287,
+  "chars_en": 761,
+  "files": {
+    "zh": "02-action-breakdown-sheet.zh.txt",
+    "en": "02-action-breakdown-sheet.en.txt"
+  },
+  "queue_ready": true
+}

@@ -1,0 +1,14 @@
+{
+  "id": "05-brand-logos/07-pitfalls",
+  "category": "05-brand-logos",
+  "title_zh": "避坑指南",
+  "title_en": "Pitfalls guide",
+  "kind": "pitfalls",
+  "chars_zh": 319,
+  "chars_en": 393,
+  "files": {
+    "zh": "07-pitfalls.zh.txt",
+    "en": "07-pitfalls.en.txt"
+  },
+  "queue_ready": false
+}

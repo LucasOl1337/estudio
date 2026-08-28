@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "source": {
+    "repository": "https://github.com/freestylefly/awesome-gpt-image-2",
+    "commit": "76fcd0e6b3961ef2b041547aac654f1efd1ef270",
+    "cases_file": "C:\\Users\\user\\Desktop\\ImageGenSource\\vendor\\awesome-gpt-image-2\\data\\cases.json",
+    "cases_sha256": "04b846d043eeef9eb9652bb27c6d07acb7054a4100e1eeb09d7cc9bd7648cf7e",
+    "style_library_file": "C:\\Users\\user\\Desktop\\ImageGenSource\\vendor\\awesome-gpt-image-2\\data\\style-library.json",
+    "style_library_sha256": "8d4395ab94793ad99a3cc0da2804e15dd14ed2192b9eae2bba10eba9277c70e1",
+    "template_catalog_file": "C:\\Users\\user\\Desktop\\ImageGenSource\\PROMPTS\\catalog.json",
+    "template_catalog_sha256": "9f43d7247a609b513ba4a4715fd1d60a45e9ffabf7acd9a50504c56153c3a73b"
+  },
+  "counts": {
+    "cases": 517,
+    "upstream_templates": 22,
+    "upstream_styles": 19,
+    "upstream_scenes": 10,
+    "queue_templates": 47,
+    "upstream_categories": 13,
+    "purposes": 17
+  },
+  "purpose_counts": {
+    "artistic-exploration": 55,
+    "brand-system": 28,
+    "campaign-key-visual": 86,
+    "character-development": 26,
+    "concept-development": 30,
+    "editorial-portrait": 68,
+    "historical-cultural": 16,
+    "information-explainer": 53,
+    "interface-design": 64,
+    "lifestyle-photography": 66,
+    "narrative-scene": 25,
+    "product-commerce": 37,
+    "product-hero": 8,
+    "profile-portrait": 4,
+    "publishing-layout": 10,
+    "social-cover": 52,
+    "space-visualization": 19
+  },
+  "purpose_template_counts": {
+    "artistic-exploration": 2,
+    "brand-system": 6,
+    "campaign-key-visual": 21,
+    "character-development": 4,
+    "concept-development": 6,
+    "editorial-portrait": 3,
+    "historical-cultural": 2,
+    "information-explainer": 3,
+    "interface-design": 4,
+    "lifestyle-photography": 5,
+    "narrative-scene": 7,
+    "product-commerce": 3,
+    "product-hero": 6,
+    "profile-portrait": 3,
+    "publishing-layout": 3,
+    "social-cover": 14,
+    "space-visualization": 2
+  },
+  "topology_counts": {
+    "single-frame": 234,
+    "poster-canvas": 65,
+    "multi-panel": 94,
+    "document-page": 49,
+    "sequence": 11,
+    "ui-screen": 64
+  },
+  "text_policy_counts": {
+    "optional": 122,
+    "required": 323,
+    "forbidden": 72
+  },
+  "invariants": {
+    "raw_cases_are_inspiration_only": true,
+    "runtime_templates_are_semantically_recomposed": true,
+    "templates_are_indexed_by_all_compatible_purposes": true,
+    "every_case_has_primary_purpose": true,
+    "every_case_has_output_topology": true
+  }
+}

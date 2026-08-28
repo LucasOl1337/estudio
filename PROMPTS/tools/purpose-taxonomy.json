@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "description": "Purpose-first taxonomy for choosing image references by the artifact the user wants, independently from upstream storage categories.",
+  "purposes": [
+    {
+      "id": "profile-portrait",
+      "label_pt": "Retrato de perfil",
+      "label_en": "Profile portrait",
+      "description": "Headshots, professional profiles, speaker cards and identity-faithful portraits.",
+      "category_priors": ["Photography & Realism"],
+      "aliases": ["retrato de perfil", "foto de perfil", "headshot", "profile portrait", "linkedin", "corporate portrait", "speaker portrait", "证件照", "头像", "职业肖像"],
+      "target_kinds": ["person"],
+      "default_topologies": ["single-frame"],
+      "default_text_policy": "forbidden"
+    },
+    {
+      "id": "editorial-portrait",
+      "label_pt": "Retrato editorial criativo",
+      "label_en": "Creative editorial portrait",
+      "description": "Standalone fashion, beauty, conceptual and creative portraits of a real or fictional person.",
+      "category_priors": ["Photography & Realism"],
+      "aliases": ["retrato criativo", "retratos criativos", "editorial portrait", "creative portrait", "fashion portrait", "beauty portrait", "portrait photography", "人像", "写真", "肖像", "ポートレート"],
+      "target_kinds": ["person"],
+      "default_topologies": ["single-frame"],
+      "default_text_policy": "forbidden"
+    },
+    {
+      "id": "lifestyle-photography",
+      "label_pt": "Fotografia lifestyle e documental",
+      "label_en": "Lifestyle and documentary photography",
+      "description": "Candid, street, travel, event and everyday photographic moments.",
+      "category_priors": ["Photography & Realism", "Scenes & Storytelling"],
+      "aliases": ["lifestyle", "documental", "documentary", "candid", "street photo", "street photography", "travel photo", "everyday moment", "街拍", "纪实", "抓拍", "旅行摄影"],
+      "target_kinds": ["person", "place", "mixed"],
+      "default_topologies": ["single-frame"],
+      "default_text_policy": "forbidden"
+    },
+    {
+      "id": "product-hero",
+      "label_pt": "Foto hero de produto",
+      "label_en": "Product hero image",
+      "description": "Single-product studio, lifestyle and packaging hero imagery.",
+      "category_priors": ["Products & E-commerce", "Photography & Realism"],
+      "aliases": ["foto de produto", "product photo", "product hero", "hero shot", "packshot", "still life", "produto isolado", "商品主图", "产品摄影", "静物摄影"],
+      "target_kinds": ["product"],
+      "default_topologies": ["single-frame"],
+      "default_text_policy": "optional"
+    },
+    {
+      "id": "product-commerce",
+      "label_pt": "Comércio e apresentação de produto",
+      "label_en": "Product commerce presentation",
+      "description": "E-commerce detail pages, selling-point layouts, packaging systems and product ads.",
+      "category_priors": ["Products & E-commerce"],
+      "aliases": ["ecommerce", "e-commerce", "detalhe de produto", "product detail", "selling points", "shopping", "packaging", "电商", "商品详情", "包装", "卖点"],
+      "target_kinds": ["product", "brand"],
+      "default_topologies": ["single-frame", "multi-panel", "document-page"],
+      "default_text_policy": "required"
+    },
+    {
+      "id": "campaign-key-visual",
+      "label_pt": "Campanha e peça principal",
+      "label_en": "Campaign key visual",
+      "description": "Posters, advertisements, event key visuals, covers and campaign compositions.",
+      "category_priors": ["Posters & Typography", "Brand & Logos"],
+      "aliases": ["campanha", "campaign", "key visual", "poster", "advertising", "anúncio", "cover", "cartaz", "海报", "广告", "主视觉", "封面"],
+      "target_kinds": ["person", "product", "brand", "place", "mixed"],
+      "default_topologies": ["poster-canvas", "single-frame"],
+      "default_text_policy": "required"
+    },
+    {
+      "id": "social-cover",
+      "label_pt": "Capa e conteúdo social",
+      "label_en": "Social cover and thumbnail",
+      "description": "Social posts, thumbnails, livestream covers and platform-native campaign cards.",
+      "category_priors": ["UI & Interfaces", "Posters & Typography"],
+      "aliases": ["thumbnail", "capa youtube", "social post", "instagram", "tiktok", "livestream", "stream cover", "youtube cover", "社媒", "缩略图", "直播封面", "小红书"],
+      "target_kinds": ["person", "product", "brand", "mixed"],
+      "default_topologies": ["poster-canvas", "ui-screen"],
+      "default_text_policy": "required"
+    },
+    {
+      "id": "interface-design",
+      "label_pt": "Interface e mockup de produto",
+      "label_en": "Interface and product mockup",
+      "description": "Application screens, websites, dashboards, game HUDs and realistic UI screenshots.",
+      "category_priors": ["UI & Interfaces"],
+      "aliases": ["ui", "interface", "app screen", "dashboard", "website", "screenshot", "mockup", "hud", "界面", "应用截图", "仪表盘", "网页"],
+      "target_kinds": ["interface", "project"],
+      "default_topologies": ["ui-screen"],
+      "default_text_policy": "required"
+    },
+    {
+      "id": "information-explainer",
+      "label_pt": "Explicação visual e infográfico",
+      "label_en": "Visual explanation and infographic",
+      "description": "Diagrams, maps, timelines, charts, educational cards and technical explainers.",
+      "category_priors": ["Charts & Infographics"],
+      "aliases": ["infográfico", "infographic", "diagram", "timeline", "chart", "mapa mental", "explainer", "knowledge map", "信息图", "图解", "流程图", "时间线"],
+      "target_kinds": ["project", "concept", "mixed"],
+      "default_topologies": ["multi-panel", "document-page"],
+      "default_text_policy": "required"
+    },
+    {
+      "id": "brand-system",
+      "label_pt": "Sistema de marca",
+      "label_en": "Brand system",
+      "description": "Logo systems, identity boards, visual guidelines and branded touchpoints.",
+      "category_priors": ["Brand & Logos"],
+      "aliases": ["identidade visual", "brand identity", "brand system", "logo", "brand board", "touchpoints", "visual identity", "品牌", "标志", "视觉识别", "品牌系统"],
+      "target_kinds": ["brand"],
+      "default_topologies": ["multi-panel", "document-page", "single-frame"],
+      "default_text_policy": "required"
+    },
+    {
+      "id": "publishing-layout",
+      "label_pt": "Publicação e documento",
+      "label_en": "Publishing and document layout",
+      "description": "Reports, manuals, brochures, magazine pages, editorial systems and document covers.",
+      "category_priors": ["Documents & Publishing"],
+      "aliases": ["documento", "document", "brochure", "manual", "magazine", "report page", "white paper", "editorial layout", "文档", "手册", "画册", "杂志"],
+      "target_kinds": ["project", "brand", "mixed"],
+      "default_topologies": ["document-page", "multi-panel"],
+      "default_text_policy": "required"
+    },
+    {
+      "id": "character-development",
+      "label_pt": "Desenvolvimento de personagem",
+      "label_en": "Character development",
+      "description": "Character sheets, pose studies, action breakdowns, avatars and collectible figures.",
+      "category_priors": ["Characters & People"],
+      "aliases": ["personagem", "character", "character sheet", "pose sheet", "turnaround", "avatar", "collectible toy", "角色", "设定表", "动作分解", "手办"],
+      "target_kinds": ["person", "character"],
+      "default_topologies": ["multi-panel", "single-frame"],
+      "default_text_policy": "optional"
+    },
+    {
+      "id": "narrative-scene",
+      "label_pt": "Cena narrativa",
+      "label_en": "Narrative scene",
+      "description": "Story frames, storyboards, worldbuilding, comics and emotionally directed scenes.",
+      "category_priors": ["Scenes & Storytelling"],
+      "aliases": ["cena narrativa", "story scene", "storyboard", "worldbuilding", "comic", "narrative frame", "cinematic scene", "叙事", "分镜", "故事场景", "漫画"],
+      "target_kinds": ["person", "character", "place", "mixed"],
+      "default_topologies": ["single-frame", "sequence", "multi-panel"],
+      "default_text_policy": "optional"
+    },
+    {
+      "id": "space-visualization",
+      "label_pt": "Visualização de espaço",
+      "label_en": "Space visualization",
+      "description": "Architecture, interiors, environments, city maps and spatial planning.",
+      "category_priors": ["Architecture & Spaces"],
+      "aliases": ["arquitetura", "architecture", "interior", "environment", "floor plan", "city map", "spatial", "建筑", "室内", "空间", "城市地图"],
+      "target_kinds": ["place", "project"],
+      "default_topologies": ["single-frame", "document-page"],
+      "default_text_policy": "optional"
+    },
+    {
+      "id": "artistic-exploration",
+      "label_pt": "Exploração artística",
+      "label_en": "Artistic exploration",
+      "description": "Illustration, material experiments, art directions and deliberate style transformations.",
+      "category_priors": ["Illustration & Art"],
+      "aliases": ["ilustração", "illustration", "art style", "watercolor", "painting", "collage art", "ink", "paper cut", "插画", "绘画", "水彩", "水墨"],
+      "target_kinds": ["person", "product", "character", "place", "mixed"],
+      "default_topologies": ["single-frame", "poster-canvas"],
+      "default_text_policy": "optional"
+    },
+    {
+      "id": "historical-cultural",
+      "label_pt": "Tema histórico e cultural",
+      "label_en": "Historical and cultural theme",
+      "description": "Historical scenes, traditional clothing, classical visual systems and cultural reinterpretations.",
+      "category_priors": ["History & Classical Themes"],
+      "aliases": ["histórico", "historical", "classical", "dynasty", "traditional", "cultural", "scroll", "历史", "古风", "朝代", "传统文化"],
+      "target_kinds": ["person", "character", "place", "mixed"],
+      "default_topologies": ["single-frame", "sequence", "poster-canvas"],
+      "default_text_policy": "optional"
+    },
+    {
+      "id": "concept-development",
+      "label_pt": "Desenvolvimento de conceito",
+      "label_en": "Concept development",
+      "description": "R&D boards, exploded diagrams, material studies and experimental design systems.",
+      "category_priors": ["Other Use Cases", "Charts & Infographics"],
+      "aliases": ["conceito", "concept development", "r&d", "exploded view", "breakdown", "design process", "material study", "研发", "拆解", "爆炸图", "概念设计"],
+      "target_kinds": ["product", "project", "concept", "mixed"],
+      "default_topologies": ["multi-panel", "document-page"],
+      "default_text_policy": "optional"
+    }
+  ],
+  "topologies": {
+    "single-frame": "One continuous scene with one final composition.",
+    "poster-canvas": "One designed poster or cover canvas; text may be part of the composition.",
+    "ui-screen": "One interface or screenshot canvas.",
+    "document-page": "One publication, report or structured page.",
+    "multi-panel": "A board, sheet, grid, collage or multi-view composition.",
+    "sequence": "A storyboard, comic strip or chronological set of frames."
+  }
+}

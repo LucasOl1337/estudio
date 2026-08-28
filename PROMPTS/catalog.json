@@ -1,0 +1,959 @@
+{
+  "source": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/templates.md",
+  "source_local": "vendor\\awesome-gpt-image-2\\docs\\templates.md",
+  "skill": "gpt-image-2-style-library",
+  "note": "100% industrial templates from docs/templates.md. *.zh.txt = verbatim upstream; *.en.txt = English fill-in for queue (slots keep [brackets]). kind=text|json|pitfalls.",
+  "categories": [
+    {
+      "slug": "01-ui-interfaces",
+      "title_zh": "UI与界面",
+      "title_en": "UI & Interfaces",
+      "anchor": "tpl-ui",
+      "items": [
+        {
+          "id": "01-ui-interfaces/01-standard",
+          "category": "01-ui-interfaces",
+          "title_zh": "常规模板",
+          "title_en": "Standard template",
+          "kind": "text",
+          "chars_zh": 159,
+          "chars_en": 393,
+          "files": {
+            "zh": "01-standard.zh.txt",
+            "en": "01-standard.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "01-ui-interfaces/02-json-advanced",
+          "category": "01-ui-interfaces",
+          "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+          "title_en": "JSON advanced template (recommended for agents)",
+          "kind": "json",
+          "chars_zh": 501,
+          "chars_en": 501,
+          "files": {
+            "zh": "02-json-advanced.zh.txt",
+            "en": "02-json-advanced.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "01-ui-interfaces/03-screenshot",
+          "category": "01-ui-interfaces",
+          "title_zh": "截图生成模板",
+          "title_en": "Screenshot generation template",
+          "kind": "text",
+          "chars_zh": 276,
+          "chars_en": 544,
+          "files": {
+            "zh": "03-screenshot.zh.txt",
+            "en": "03-screenshot.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "01-ui-interfaces/04-livestream-ui",
+          "category": "01-ui-interfaces",
+          "title_zh": "直播界面模板",
+          "title_en": "Live-stream UI template",
+          "kind": "text",
+          "chars_zh": 292,
+          "chars_en": 403,
+          "files": {
+            "zh": "04-livestream-ui.zh.txt",
+            "en": "04-livestream-ui.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "01-ui-interfaces/05-pitfalls",
+          "category": "01-ui-interfaces",
+          "title_zh": "避坑指南",
+          "title_en": "Pitfalls guide",
+          "kind": "pitfalls",
+          "chars_zh": 315,
+          "chars_en": 465,
+          "files": {
+            "zh": "05-pitfalls.zh.txt",
+            "en": "05-pitfalls.en.txt"
+          },
+          "queue_ready": false
+        }
+      ]
+    },
+    {
+      "slug": "02-charts-infographics",
+      "title_zh": "图表与信息可视化",
+      "title_en": "Charts & Infographics",
+      "anchor": "tpl-infographic",
+      "items": [
+        {
+          "id": "02-charts-infographics/01-standard",
+          "category": "02-charts-infographics",
+          "title_zh": "常规模板",
+          "title_en": "Standard template",
+          "kind": "text",
+          "chars_zh": 230,
+          "chars_en": 446,
+          "files": {
+            "zh": "01-standard.zh.txt",
+            "en": "01-standard.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "02-charts-infographics/02-json-advanced",
+          "category": "02-charts-infographics",
+          "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+          "title_en": "JSON advanced template (recommended for agents)",
+          "kind": "json",
+          "chars_zh": 579,
+          "chars_en": 579,
+          "files": {
+            "zh": "02-json-advanced.zh.txt",
+            "en": "02-json-advanced.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "02-charts-infographics/03-scientific-scale-diagram",
+          "category": "02-charts-infographics",
+          "title_zh": "尺度缩放科学信息图模板",
+          "title_en": "Scientific scale diagram template",
+          "kind": "text",
+          "chars_zh": 235,
+          "chars_en": 370,
+          "files": {
+            "zh": "03-scientific-scale-diagram.zh.txt",
+            "en": "03-scientific-scale-diagram.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "02-charts-infographics/04-pitfalls",
+          "category": "02-charts-infographics",
+          "title_zh": "避坑指南",
+          "title_en": "Pitfalls guide",
+          "kind": "pitfalls",
+          "chars_zh": 95,
+          "chars_en": 203,
+          "files": {
+            "zh": "04-pitfalls.zh.txt",
+            "en": "04-pitfalls.en.txt"
+          },
+          "queue_ready": false
+        }
+      ]
+    },
+    {
+      "slug": "03-posters-typography",
+      "title_zh": "海报与排版",
+      "title_en": "Posters & Typography",
+      "anchor": "tpl-poster",
+      "items": [
+        {
+          "id": "03-posters-typography/01-standard",
+          "category": "03-posters-typography",
+          "title_zh": "常规模板",
+          "title_en": "Standard template",
+          "kind": "text",
+          "chars_zh": 134,
+          "chars_en": 334,
+          "files": {
+            "zh": "01-standard.zh.txt",
+            "en": "01-standard.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "03-posters-typography/02-sports-campaign",
+          "category": "03-posters-typography",
+          "title_zh": "运动商业 Campaign 模板",
+          "title_en": "Sports campaign poster template",
+          "kind": "text",
+          "chars_zh": 270,
+          "chars_en": 689,
+          "files": {
+            "zh": "02-sports-campaign.zh.txt",
+            "en": "02-sports-campaign.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "03-posters-typography/03-conceptual-typography",
+          "category": "03-posters-typography",
+          "title_zh": "概念字体海报模板",
+          "title_en": "Conceptual typography poster template",
+          "kind": "text",
+          "chars_zh": 2212,
+          "chars_en": 2212,
+          "files": {
+            "zh": "03-conceptual-typography.zh.txt",
+            "en": "03-conceptual-typography.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "03-posters-typography/04-multi-style-signature-poster",
+          "category": "03-posters-typography",
+          "title_zh": "多风格签名选择海报模板",
+          "title_en": "Multi-style signature selection poster template",
+          "kind": "text",
+          "chars_zh": 729,
+          "chars_en": 1708,
+          "files": {
+            "zh": "04-multi-style-signature-poster.zh.txt",
+            "en": "04-multi-style-signature-poster.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "03-posters-typography/05-single-signature-extract",
+          "category": "03-posters-typography",
+          "title_zh": "单款签名提取模板",
+          "title_en": "Single signature extraction template",
+          "kind": "text",
+          "chars_zh": 239,
+          "chars_en": 618,
+          "files": {
+            "zh": "05-single-signature-extract.zh.txt",
+            "en": "05-single-signature-extract.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "03-posters-typography/06-signature-practice-breakdown",
+          "category": "03-posters-typography",
+          "title_zh": "签名练习拆解图模板",
+          "title_en": "Signature practice breakdown template",
+          "kind": "text",
+          "chars_zh": 362,
+          "chars_en": 1091,
+          "files": {
+            "zh": "06-signature-practice-breakdown.zh.txt",
+            "en": "06-signature-practice-breakdown.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "03-posters-typography/07-conceptual-typography-zh",
+          "category": "03-posters-typography",
+          "title_zh": "中文版：概念字体海报模板",
+          "title_en": "Conceptual typography poster template (Chinese version)",
+          "kind": "text",
+          "chars_zh": 714,
+          "chars_en": 2055,
+          "files": {
+            "zh": "07-conceptual-typography-zh.zh.txt",
+            "en": "07-conceptual-typography-zh.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "03-posters-typography/08-ink-double-exposure",
+          "category": "03-posters-typography",
+          "title_zh": "水墨双重曝光人物海报模板",
+          "title_en": "Ink double-exposure portrait poster template",
+          "kind": "text",
+          "chars_zh": 405,
+          "chars_en": 790,
+          "files": {
+            "zh": "08-ink-double-exposure.zh.txt",
+            "en": "08-ink-double-exposure.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "03-posters-typography/09-nature-science-poster",
+          "category": "03-posters-typography",
+          "title_zh": "自然科普海报模板",
+          "title_en": "Nature science poster template",
+          "kind": "text",
+          "chars_zh": 1582,
+          "chars_en": 1059,
+          "files": {
+            "zh": "09-nature-science-poster.zh.txt",
+            "en": "09-nature-science-poster.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "03-posters-typography/10-json-advanced",
+          "category": "03-posters-typography",
+          "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+          "title_en": "JSON advanced template (recommended for agents)",
+          "kind": "json",
+          "chars_zh": 476,
+          "chars_en": 476,
+          "files": {
+            "zh": "10-json-advanced.zh.txt",
+            "en": "10-json-advanced.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "03-posters-typography/11-pitfalls",
+          "category": "03-posters-typography",
+          "title_zh": "避坑指南",
+          "title_en": "Pitfalls guide",
+          "kind": "pitfalls",
+          "chars_zh": 582,
+          "chars_en": 511,
+          "files": {
+            "zh": "11-pitfalls.zh.txt",
+            "en": "11-pitfalls.en.txt"
+          },
+          "queue_ready": false
+        }
+      ]
+    },
+    {
+      "slug": "04-products-ecommerce",
+      "title_zh": "商品与电商",
+      "title_en": "Products & E-commerce",
+      "anchor": "tpl-product",
+      "items": [
+        {
+          "id": "04-products-ecommerce/01-standard",
+          "category": "04-products-ecommerce",
+          "title_zh": "常规模板",
+          "title_en": "Standard template",
+          "kind": "text",
+          "chars_zh": 133,
+          "chars_en": 391,
+          "files": {
+            "zh": "01-standard.zh.txt",
+            "en": "01-standard.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "04-products-ecommerce/02-personalized-beauty-report",
+          "category": "04-products-ecommerce",
+          "title_zh": "个人化美妆推荐报告模板",
+          "title_en": "Personalized beauty recommendation report template",
+          "kind": "text",
+          "chars_zh": 630,
+          "chars_en": 829,
+          "files": {
+            "zh": "02-personalized-beauty-report.zh.txt",
+            "en": "02-personalized-beauty-report.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "04-products-ecommerce/03-json-advanced",
+          "category": "04-products-ecommerce",
+          "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+          "title_en": "JSON advanced template (recommended for agents)",
+          "kind": "json",
+          "chars_zh": 518,
+          "chars_en": 518,
+          "files": {
+            "zh": "03-json-advanced.zh.txt",
+            "en": "03-json-advanced.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "04-products-ecommerce/04-pitfalls",
+          "category": "04-products-ecommerce",
+          "title_zh": "避坑指南",
+          "title_en": "Pitfalls guide",
+          "kind": "pitfalls",
+          "chars_zh": 282,
+          "chars_en": 196,
+          "files": {
+            "zh": "04-pitfalls.zh.txt",
+            "en": "04-pitfalls.en.txt"
+          },
+          "queue_ready": false
+        }
+      ]
+    },
+    {
+      "slug": "05-brand-logos",
+      "title_zh": "品牌与标志",
+      "title_en": "Brand & Logos",
+      "anchor": "tpl-brand",
+      "items": [
+        {
+          "id": "05-brand-logos/01-standard",
+          "category": "05-brand-logos",
+          "title_zh": "常规模板",
+          "title_en": "Standard template",
+          "kind": "text",
+          "chars_zh": 126,
+          "chars_en": 214,
+          "files": {
+            "zh": "01-standard.zh.txt",
+            "en": "01-standard.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "05-brand-logos/02-full-brand-identity-package",
+          "category": "05-brand-logos",
+          "title_zh": "完整品牌身份包模板",
+          "title_en": "Full brand identity package template",
+          "kind": "text",
+          "chars_zh": 536,
+          "chars_en": 819,
+          "files": {
+            "zh": "02-full-brand-identity-package.zh.txt",
+            "en": "02-full-brand-identity-package.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "05-brand-logos/03-brand-touchpoint-board",
+          "category": "05-brand-logos",
+          "title_zh": "品牌触点系统视觉板模板",
+          "title_en": "Brand touchpoint system board template",
+          "kind": "text",
+          "chars_zh": 454,
+          "chars_en": 758,
+          "files": {
+            "zh": "03-brand-touchpoint-board.zh.txt",
+            "en": "03-brand-touchpoint-board.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "05-brand-logos/04-brand-wrapped-product-ad",
+          "category": "05-brand-logos",
+          "title_zh": "品牌包络产品广告模板",
+          "title_en": "Brand-wrapped product ad template",
+          "kind": "text",
+          "chars_zh": 308,
+          "chars_en": 578,
+          "files": {
+            "zh": "04-brand-wrapped-product-ad.zh.txt",
+            "en": "04-brand-wrapped-product-ad.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "05-brand-logos/05-brand-personality-comic-infographic",
+          "category": "05-brand-logos",
+          "title_zh": "品牌人格漫画信息图模板",
+          "title_en": "Brand personality comic infographic template",
+          "kind": "text",
+          "chars_zh": 364,
+          "chars_en": 657,
+          "files": {
+            "zh": "05-brand-personality-comic-infographic.zh.txt",
+            "en": "05-brand-personality-comic-infographic.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "05-brand-logos/06-json-advanced",
+          "category": "05-brand-logos",
+          "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+          "title_en": "JSON advanced template (recommended for agents)",
+          "kind": "json",
+          "chars_zh": 501,
+          "chars_en": 501,
+          "files": {
+            "zh": "06-json-advanced.zh.txt",
+            "en": "06-json-advanced.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "05-brand-logos/07-pitfalls",
+          "category": "05-brand-logos",
+          "title_zh": "避坑指南",
+          "title_en": "Pitfalls guide",
+          "kind": "pitfalls",
+          "chars_zh": 319,
+          "chars_en": 393,
+          "files": {
+            "zh": "07-pitfalls.zh.txt",
+            "en": "07-pitfalls.en.txt"
+          },
+          "queue_ready": false
+        }
+      ]
+    },
+    {
+      "slug": "06-architecture-space",
+      "title_zh": "建筑与空间",
+      "title_en": "Architecture & Spaces",
+      "anchor": "tpl-architecture",
+      "items": [
+        {
+          "id": "06-architecture-space/01-standard",
+          "category": "06-architecture-space",
+          "title_zh": "常规模板",
+          "title_en": "Standard template",
+          "kind": "text",
+          "chars_zh": 125,
+          "chars_en": 375,
+          "files": {
+            "zh": "01-standard.zh.txt",
+            "en": "01-standard.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "06-architecture-space/02-json-advanced",
+          "category": "06-architecture-space",
+          "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+          "title_en": "JSON advanced template (recommended for agents)",
+          "kind": "json",
+          "chars_zh": 557,
+          "chars_en": 557,
+          "files": {
+            "zh": "02-json-advanced.zh.txt",
+            "en": "02-json-advanced.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "06-architecture-space/03-pitfalls",
+          "category": "06-architecture-space",
+          "title_zh": "避坑指南",
+          "title_en": "Pitfalls guide",
+          "kind": "pitfalls",
+          "chars_zh": 111,
+          "chars_en": 200,
+          "files": {
+            "zh": "03-pitfalls.zh.txt",
+            "en": "03-pitfalls.en.txt"
+          },
+          "queue_ready": false
+        }
+      ]
+    },
+    {
+      "slug": "07-photography-realism",
+      "title_zh": "摄影与写实",
+      "title_en": "Photography & Realism",
+      "anchor": "tpl-photo",
+      "items": [
+        {
+          "id": "07-photography-realism/01-standard",
+          "category": "07-photography-realism",
+          "title_zh": "常规模板",
+          "title_en": "Standard template",
+          "kind": "text",
+          "chars_zh": 122,
+          "chars_en": 313,
+          "files": {
+            "zh": "01-standard.zh.txt",
+            "en": "01-standard.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "07-photography-realism/02-json-advanced",
+          "category": "07-photography-realism",
+          "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+          "title_en": "JSON advanced template (recommended for agents)",
+          "kind": "json",
+          "chars_zh": 626,
+          "chars_en": 626,
+          "files": {
+            "zh": "02-json-advanced.zh.txt",
+            "en": "02-json-advanced.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "07-photography-realism/03-street-accident-moment",
+          "category": "07-photography-realism",
+          "title_zh": "街头意外瞬间写实摄影模板",
+          "title_en": "Street accident candid photography template",
+          "kind": "text",
+          "chars_zh": 325,
+          "chars_en": 846,
+          "files": {
+            "zh": "03-street-accident-moment.zh.txt",
+            "en": "03-street-accident-moment.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "07-photography-realism/04-pitfalls",
+          "category": "07-photography-realism",
+          "title_zh": "避坑指南",
+          "title_en": "Pitfalls guide",
+          "kind": "pitfalls",
+          "chars_zh": 190,
+          "chars_en": 282,
+          "files": {
+            "zh": "04-pitfalls.zh.txt",
+            "en": "04-pitfalls.en.txt"
+          },
+          "queue_ready": false
+        }
+      ]
+    },
+    {
+      "slug": "08-illustration-art",
+      "title_zh": "插画与艺术",
+      "title_en": "Illustration & Art",
+      "anchor": "tpl-illustration",
+      "items": [
+        {
+          "id": "08-illustration-art/01-standard",
+          "category": "08-illustration-art",
+          "title_zh": "常规模板",
+          "title_en": "Standard template",
+          "kind": "text",
+          "chars_zh": 118,
+          "chars_en": 351,
+          "files": {
+            "zh": "01-standard.zh.txt",
+            "en": "01-standard.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "08-illustration-art/02-json-advanced",
+          "category": "08-illustration-art",
+          "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+          "title_en": "JSON advanced template (recommended for agents)",
+          "kind": "json",
+          "chars_zh": 480,
+          "chars_en": 480,
+          "files": {
+            "zh": "02-json-advanced.zh.txt",
+            "en": "02-json-advanced.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "08-illustration-art/03-pitfalls",
+          "category": "08-illustration-art",
+          "title_zh": "避坑指南",
+          "title_en": "Pitfalls guide",
+          "kind": "pitfalls",
+          "chars_zh": 131,
+          "chars_en": 131,
+          "files": {
+            "zh": "03-pitfalls.zh.txt",
+            "en": "03-pitfalls.en.txt"
+          },
+          "queue_ready": false
+        }
+      ]
+    },
+    {
+      "slug": "09-characters-people",
+      "title_zh": "人物与角色",
+      "title_en": "Characters & People",
+      "anchor": "tpl-character",
+      "items": [
+        {
+          "id": "09-characters-people/01-standard",
+          "category": "09-characters-people",
+          "title_zh": "常规模板",
+          "title_en": "Standard template",
+          "kind": "text",
+          "chars_zh": 111,
+          "chars_en": 272,
+          "files": {
+            "zh": "01-standard.zh.txt",
+            "en": "01-standard.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "09-characters-people/02-action-breakdown-sheet",
+          "category": "09-characters-people",
+          "title_zh": "动作分解参考表模板",
+          "title_en": "Action breakdown reference sheet template",
+          "kind": "text",
+          "chars_zh": 287,
+          "chars_en": 761,
+          "files": {
+            "zh": "02-action-breakdown-sheet.zh.txt",
+            "en": "02-action-breakdown-sheet.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "09-characters-people/03-ref-to-3d-collectible-toy",
+          "category": "09-characters-people",
+          "title_zh": "参考图转 3D 收藏玩具模板",
+          "title_en": "Reference-to-3D collectible toy template",
+          "kind": "text",
+          "chars_zh": 312,
+          "chars_en": 738,
+          "files": {
+            "zh": "03-ref-to-3d-collectible-toy.zh.txt",
+            "en": "03-ref-to-3d-collectible-toy.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "09-characters-people/04-json-advanced",
+          "category": "09-characters-people",
+          "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+          "title_en": "JSON advanced template (recommended for agents)",
+          "kind": "json",
+          "chars_zh": 473,
+          "chars_en": 473,
+          "files": {
+            "zh": "04-json-advanced.zh.txt",
+            "en": "04-json-advanced.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "09-characters-people/05-pitfalls",
+          "category": "09-characters-people",
+          "title_zh": "避坑指南",
+          "title_en": "Pitfalls guide",
+          "kind": "pitfalls",
+          "chars_zh": 268,
+          "chars_en": 348,
+          "files": {
+            "zh": "05-pitfalls.zh.txt",
+            "en": "05-pitfalls.en.txt"
+          },
+          "queue_ready": false
+        }
+      ]
+    },
+    {
+      "slug": "10-scenes-storytelling",
+      "title_zh": "场景与叙事",
+      "title_en": "Scenes & Storytelling",
+      "anchor": "tpl-scene",
+      "items": [
+        {
+          "id": "10-scenes-storytelling/01-standard",
+          "category": "10-scenes-storytelling",
+          "title_zh": "常规模板",
+          "title_en": "Standard template",
+          "kind": "text",
+          "chars_zh": 120,
+          "chars_en": 277,
+          "files": {
+            "zh": "01-standard.zh.txt",
+            "en": "01-standard.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "10-scenes-storytelling/02-json-advanced",
+          "category": "10-scenes-storytelling",
+          "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+          "title_en": "JSON advanced template (recommended for agents)",
+          "kind": "json",
+          "chars_zh": 476,
+          "chars_en": 476,
+          "files": {
+            "zh": "02-json-advanced.zh.txt",
+            "en": "02-json-advanced.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "10-scenes-storytelling/03-pitfalls",
+          "category": "10-scenes-storytelling",
+          "title_zh": "避坑指南",
+          "title_en": "Pitfalls guide",
+          "kind": "pitfalls",
+          "chars_zh": 124,
+          "chars_en": 140,
+          "files": {
+            "zh": "03-pitfalls.zh.txt",
+            "en": "03-pitfalls.en.txt"
+          },
+          "queue_ready": false
+        }
+      ]
+    },
+    {
+      "slug": "11-history-classical",
+      "title_zh": "历史与古风题材",
+      "title_en": "History & Classical Themes",
+      "anchor": "tpl-history",
+      "items": [
+        {
+          "id": "11-history-classical/01-standard",
+          "category": "11-history-classical",
+          "title_zh": "常规模板",
+          "title_en": "Standard template",
+          "kind": "text",
+          "chars_zh": 116,
+          "chars_en": 281,
+          "files": {
+            "zh": "01-standard.zh.txt",
+            "en": "01-standard.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "11-history-classical/02-json-advanced",
+          "category": "11-history-classical",
+          "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+          "title_en": "JSON advanced template (recommended for agents)",
+          "kind": "json",
+          "chars_zh": 528,
+          "chars_en": 528,
+          "files": {
+            "zh": "02-json-advanced.zh.txt",
+            "en": "02-json-advanced.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "11-history-classical/03-pitfalls",
+          "category": "11-history-classical",
+          "title_zh": "避坑指南",
+          "title_en": "Pitfalls guide",
+          "kind": "pitfalls",
+          "chars_zh": 120,
+          "chars_en": 140,
+          "files": {
+            "zh": "03-pitfalls.zh.txt",
+            "en": "03-pitfalls.en.txt"
+          },
+          "queue_ready": false
+        }
+      ]
+    },
+    {
+      "slug": "12-documents-publishing",
+      "title_zh": "文档与出版物",
+      "title_en": "Documents & Publishing",
+      "anchor": "tpl-document",
+      "items": [
+        {
+          "id": "12-documents-publishing/01-standard",
+          "category": "12-documents-publishing",
+          "title_zh": "常规模板",
+          "title_en": "Standard template",
+          "kind": "text",
+          "chars_zh": 112,
+          "chars_en": 254,
+          "files": {
+            "zh": "01-standard.zh.txt",
+            "en": "01-standard.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "12-documents-publishing/02-json-advanced",
+          "category": "12-documents-publishing",
+          "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+          "title_en": "JSON advanced template (recommended for agents)",
+          "kind": "json",
+          "chars_zh": 506,
+          "chars_en": 506,
+          "files": {
+            "zh": "02-json-advanced.zh.txt",
+            "en": "02-json-advanced.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "12-documents-publishing/03-corporate-brochure-system",
+          "category": "12-documents-publishing",
+          "title_zh": "企业画册系统模板",
+          "title_en": "Corporate brochure system template",
+          "kind": "text",
+          "chars_zh": 284,
+          "chars_en": 862,
+          "files": {
+            "zh": "03-corporate-brochure-system.zh.txt",
+            "en": "03-corporate-brochure-system.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "12-documents-publishing/04-pitfalls",
+          "category": "12-documents-publishing",
+          "title_zh": "避坑指南",
+          "title_en": "Pitfalls guide",
+          "kind": "pitfalls",
+          "chars_zh": 182,
+          "chars_en": 132,
+          "files": {
+            "zh": "04-pitfalls.zh.txt",
+            "en": "04-pitfalls.en.txt"
+          },
+          "queue_ready": false
+        }
+      ]
+    },
+    {
+      "slug": "13-other-use-cases",
+      "title_zh": "其他应用场景",
+      "title_en": "Other Use Cases",
+      "anchor": "tpl-other",
+      "items": [
+        {
+          "id": "13-other-use-cases/01-standard",
+          "category": "13-other-use-cases",
+          "title_zh": "常规模板",
+          "title_en": "Standard template",
+          "kind": "text",
+          "chars_zh": 126,
+          "chars_en": 313,
+          "files": {
+            "zh": "01-standard.zh.txt",
+            "en": "01-standard.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "13-other-use-cases/02-concept-product-rd-breakdown",
+          "category": "13-other-use-cases",
+          "title_zh": "概念产品研发拆解板模板",
+          "title_en": "Concept product R&D breakdown board template",
+          "kind": "text",
+          "chars_zh": 505,
+          "chars_en": 906,
+          "files": {
+            "zh": "02-concept-product-rd-breakdown.zh.txt",
+            "en": "02-concept-product-rd-breakdown.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "13-other-use-cases/03-json-advanced",
+          "category": "13-other-use-cases",
+          "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+          "title_en": "JSON advanced template (recommended for agents)",
+          "kind": "json",
+          "chars_zh": 514,
+          "chars_en": 514,
+          "files": {
+            "zh": "03-json-advanced.zh.txt",
+            "en": "03-json-advanced.en.txt"
+          },
+          "queue_ready": true
+        },
+        {
+          "id": "13-other-use-cases/04-pitfalls",
+          "category": "13-other-use-cases",
+          "title_zh": "避坑指南",
+          "title_en": "Pitfalls guide",
+          "kind": "pitfalls",
+          "chars_zh": 103,
+          "chars_en": 152,
+          "files": {
+            "zh": "04-pitfalls.zh.txt",
+            "en": "04-pitfalls.en.txt"
+          },
+          "queue_ready": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "categories": 13,
+    "items_total": 60,
+    "prompts_queueable": 47,
+    "pitfalls": 13,
+    "en_pending": []
+  }
+}

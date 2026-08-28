@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "purpose": "narrative-scene",
+  "case_ids": [
+    493,
+    487,
+    448,
+    422,
+    419,
+    413,
+    395,
+    394,
+    392,
+    390,
+    340,
+    329,
+    324,
+    319,
+    316,
+    315,
+    297,
+    238,
+    224,
+    208,
+    204,
+    182,
+    118,
+    60,
+    24
+  ],
+  "template_ids": [
+    "08-illustration-art/01-standard",
+    "08-illustration-art/02-json-advanced",
+    "09-characters-people/02-action-breakdown-sheet",
+    "10-scenes-storytelling/01-standard",
+    "10-scenes-storytelling/02-json-advanced",
+    "11-history-classical/01-standard",
+    "11-history-classical/02-json-advanced"
+  ]
+}

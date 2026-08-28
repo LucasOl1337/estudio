@@ -1,0 +1,14 @@
+{
+  "id": "03-posters-typography/10-json-advanced",
+  "category": "03-posters-typography",
+  "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+  "title_en": "JSON advanced template (recommended for agents)",
+  "kind": "json",
+  "chars_zh": 476,
+  "chars_en": 476,
+  "files": {
+    "zh": "10-json-advanced.zh.txt",
+    "en": "10-json-advanced.en.txt"
+  },
+  "queue_ready": true
+}

@@ -1,0 +1,14 @@
+{
+  "id": "04-products-ecommerce/03-json-advanced",
+  "category": "04-products-ecommerce",
+  "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+  "title_en": "JSON advanced template (recommended for agents)",
+  "kind": "json",
+  "chars_zh": 518,
+  "chars_en": 518,
+  "files": {
+    "zh": "03-json-advanced.zh.txt",
+    "en": "03-json-advanced.en.txt"
+  },
+  "queue_ready": true
+}

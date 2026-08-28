@@ -1,0 +1,14 @@
+{
+  "id": "03-posters-typography/01-standard",
+  "category": "03-posters-typography",
+  "title_zh": "常规模板",
+  "title_en": "Standard template",
+  "kind": "text",
+  "chars_zh": 134,
+  "chars_en": 334,
+  "files": {
+    "zh": "01-standard.zh.txt",
+    "en": "01-standard.en.txt"
+  },
+  "queue_ready": true
+}

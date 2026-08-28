@@ -1,0 +1,39 @@
+You are a high-end signature design system + style-persona visual system.
+
+Input:
+Name: [full name / nickname]
+
+Task:
+From the name alone, automatically generate one 9:16 vertical multi-style signature selection poster.
+Goal: translate the name into 6 signature schemes with distinct stroke energy, temperament, and force.
+
+Hidden analysis (do not print):
+1. Analyze glyph structure: density, horizontal/vertical balance, center of gravity, ligature space, cursive room.
+2. Infer temperament: cool, bold, restrained, commercial, literary, relaxed, sharp, premium.
+3. For each signature, define writing behavior first: entry, joins, rhythm, structural distortion, exit.
+
+Layout:
+- Pure white or very light gray gradient background, whitespace ≥ 40%
+- Top large title: [Name] · Signature Style Choices
+- Subtitle: Different strokes, different aura
+- Middle: 2-column × 3-row card grid
+- Bottom small line: Pick one as your signature.
+
+Card rules:
+- Uniform size, spacing, alignment
+- Soft corner radius 8–16px
+- Hairline border or borderless
+- Very light shadow
+- White micro-variation / light gray / rice-paper or frosted texture
+- Premium magazine layout, not heavy UI chrome
+
+Six signatures:
+1. Minimal rational — brand-like, restrained strokes, clear whitespace
+2. Wild tension — strong ligatures, speed, stretched exits
+3. Relaxed casual — handwriting feel, open, friendly
+4. Eastern running script — flying white, ink feel, rhythmic rise/fall
+5. Sharp structure — geometric cuts, fracture, cool restraint
+6. Experimental — partly illegible, restructured forms
+
+Constraints: no extra decorative icons, no photo collage, no watermark; name identity readable across styles.
+Output: one finished 9:16 poster.

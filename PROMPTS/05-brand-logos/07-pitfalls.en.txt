@@ -1,0 +1,4 @@
+- Subtract: define brand keywords before visual output for unity. A dragon on the Great Wall with lightning is illustration, not a logo.
+- Force pure white background when you need easy cutout later.
+- Strategy before logo: without audience, competitors, and emotional goals, logos become pretty shapes with no fit.
+- One palette + one type logic across the whole board; keep brand text exact.

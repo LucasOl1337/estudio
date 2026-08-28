@@ -1,0 +1,14 @@
+{
+  "id": "05-brand-logos/02-full-brand-identity-package",
+  "category": "05-brand-logos",
+  "title_zh": "完整品牌身份包模板",
+  "title_en": "Full brand identity package template",
+  "kind": "text",
+  "chars_zh": 536,
+  "chars_en": 819,
+  "files": {
+    "zh": "02-full-brand-identity-package.zh.txt",
+    "en": "02-full-brand-identity-package.en.txt"
+  },
+  "queue_ready": true
+}

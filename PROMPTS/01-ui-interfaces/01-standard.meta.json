@@ -1,0 +1,14 @@
+{
+  "id": "01-ui-interfaces/01-standard",
+  "category": "01-ui-interfaces",
+  "title_zh": "常规模板",
+  "title_en": "Standard template",
+  "kind": "text",
+  "chars_zh": 159,
+  "chars_en": 393,
+  "files": {
+    "zh": "01-standard.zh.txt",
+    "en": "01-standard.en.txt"
+  },
+  "queue_ready": true
+}

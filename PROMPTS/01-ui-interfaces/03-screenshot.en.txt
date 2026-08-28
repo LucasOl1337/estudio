@@ -1,0 +1,12 @@
+Generate a [platform, e.g. X / Douyin / Xiaohongshu / WeChat Moments] content screenshot, [dark / light] mode.
+Overall ratio: [9:16 / 3:4 / 1:1], phone-screenshot style.
+
+Core content:
+- Account info: [avatar description / username / verification badge]
+- Body text: [exact copy, including any specified language]
+- Engagement stats: [likes / comments / reposts / saves]
+
+UI chrome:
+- Top: [status bar / navigation]
+- Bottom: [tab bar / action row / comment input]
+Constraints: high-fidelity platform chrome, readable text, no gibberish labels.

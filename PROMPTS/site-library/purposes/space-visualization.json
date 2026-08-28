@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "purpose": "space-visualization",
+  "case_ids": [
+    489,
+    411,
+    381,
+    369,
+    331,
+    328,
+    274,
+    211,
+    128,
+    127,
+    121,
+    53,
+    50,
+    47,
+    46,
+    26,
+    20,
+    18,
+    11
+  ],
+  "template_ids": [
+    "06-architecture-space/01-standard",
+    "06-architecture-space/02-json-advanced"
+  ]
+}

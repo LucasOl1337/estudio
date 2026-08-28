@@ -1,0 +1,14 @@
+{
+  "id": "09-characters-people/05-pitfalls",
+  "category": "09-characters-people",
+  "title_zh": "避坑指南",
+  "title_en": "Pitfalls guide",
+  "kind": "pitfalls",
+  "chars_zh": 268,
+  "chars_en": 348,
+  "files": {
+    "zh": "05-pitfalls.zh.txt",
+    "en": "05-pitfalls.en.txt"
+  },
+  "queue_ready": false
+}

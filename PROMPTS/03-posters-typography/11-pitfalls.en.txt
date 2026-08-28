@@ -1,0 +1,6 @@
+- Do not be lazy: state exactly what the hero visual is; "make a poster" alone fails.
+- Hard-code headline and subhead or the model invents nonsense type.
+- Sports campaigns: lock structure first (single hero / triptych / data doodle) before subject and copy.
+- Props are composition skeleton: specify angle, scale, and role of racket/dumbbell/shoe.
+- Typography posters: type is the hero; no default word-art; restrained palette; exact spelling.
+- Ask for one finished poster, not a moodboard or process sheet.

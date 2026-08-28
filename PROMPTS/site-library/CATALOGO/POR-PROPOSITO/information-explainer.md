@@ -1,0 +1,56 @@
+# information-explainer
+
+52 cases. [Índice](../00-INDICE.md)
+
+- [case-8](../02-charts-infographics/INDEX.md#case-8) — Ilustração de enciclopédia científica — Charts & Infographics
+- [case-14](../02-charts-infographics/INDEX.md#case-14) — Design de infográfico visual — Charts & Infographics
+- [case-19](../02-charts-infographics/INDEX.md#case-19) — Design de infográfico visual — Charts & Infographics
+- [case-23](../02-charts-infographics/INDEX.md#case-23) — Design de infográfico visual — Charts & Infographics
+- [case-51](../02-charts-infographics/INDEX.md#case-51) — Design de infográfico visual — Charts & Infographics
+- [case-55](../02-charts-infographics/INDEX.md#case-55) — Design de infográfico visual — Charts & Infographics
+- [case-64](../02-charts-infographics/INDEX.md#case-64) — Design de infográfico visual — Charts & Infographics
+- [case-65](../02-charts-infographics/INDEX.md#case-65) — Design de infográfico visual — Charts & Infographics
+- [case-66](../02-charts-infographics/INDEX.md#case-66) — Design de infográfico visual — Charts & Infographics
+- [case-67](../02-charts-infographics/INDEX.md#case-67) — Design de infográfico visual — Charts & Infographics
+- [case-68](../02-charts-infographics/INDEX.md#case-68) — Design de infográfico visual — Charts & Infographics
+- [case-69](../02-charts-infographics/INDEX.md#case-69) — Design de infográfico visual — Charts & Infographics
+- [case-70](../02-charts-infographics/INDEX.md#case-70) — Design de infográfico visual — Charts & Infographics
+- [case-71](../02-charts-infographics/INDEX.md#case-71) — Infográfico de grafo de relações — Charts & Infographics
+- [case-72](../02-charts-infographics/INDEX.md#case-72) — Design de infográfico visual — Charts & Infographics
+- [case-73](../02-charts-infographics/INDEX.md#case-73) — Design de infográfico visual — Charts & Infographics
+- [case-74](../02-charts-infographics/INDEX.md#case-74) — Infográfico de grafo de relações — Charts & Infographics
+- [case-75](../02-charts-infographics/INDEX.md#case-75) — Infográfico de grafo de relações — Charts & Infographics
+- [case-76](../02-charts-infographics/INDEX.md#case-76) — Infográfico de grafo de relações — Charts & Infographics
+- [case-77](../02-charts-infographics/INDEX.md#case-77) — Infográfico de grafo de relações — Charts & Infographics
+- [case-84](../02-charts-infographics/INDEX.md#case-84) — Infográfico de grafo de relações — Charts & Infographics
+- [case-85](../02-charts-infographics/INDEX.md#case-85) — Infográfico de grafo de relações — Charts & Infographics
+- [case-86](../02-charts-infographics/INDEX.md#case-86) — Infográfico de grafo de relações — Charts & Infographics
+- [case-87](../02-charts-infographics/INDEX.md#case-87) — Infográfico de grafo de relações — Charts & Infographics
+- [case-89](../02-charts-infographics/INDEX.md#case-89) — Design de infográfico visual — Charts & Infographics
+- [case-102](../02-charts-infographics/INDEX.md#case-102) — Design de infográfico visual — Charts & Infographics
+- [case-171](../02-charts-infographics/INDEX.md#case-171) — Design de infográfico visual — Charts & Infographics
+- [case-179](../02-charts-infographics/INDEX.md#case-179) — Atlas anatômico steampunk de Sagitário — Charts & Infographics
+- [case-183](../02-charts-infographics/INDEX.md#case-183) — Infográfico de fitness em chinês — Charts & Infographics
+- [case-210](../02-charts-infographics/INDEX.md#case-210) — Diagrama fofo de treino de grande modelo — Charts & Infographics
+- [case-214](../02-charts-infographics/INDEX.md#case-214) — Mapa de conhecimento de Jin Ping Mei — Charts & Infographics
+- [case-218](../02-charts-infographics/INDEX.md#case-218) — Mapa de conhecimento de enciclopédia científica — Charts & Infographics
+- [case-222](../02-charts-infographics/INDEX.md#case-222) — Guia enciclopédico científico modular e caprichado — Charts & Infographics
+- [case-248](../02-charts-infographics/INDEX.md#case-248) — Infográfico panorâmico da porcelana azul-e-branca de Jingdezhen — Charts & Infographics
+- [case-296](../02-charts-infographics/INDEX.md#case-296) — Compêndio infográfico de desmontagem em chinês nível museu — Charts & Infographics
+- [case-333](../02-charts-infographics/INDEX.md#case-333) — Vista explodida de óculos AI — Charts & Infographics
+- [case-334](../02-charts-infographics/INDEX.md#case-334) — Diagrama técnico detalhado de RAG — Charts & Infographics
+- [case-341](../02-charts-infographics/INDEX.md#case-341) — Infográfico de estudo AP Calculus — Charts & Infographics
+- [case-353](../02-charts-infographics/INDEX.md#case-353) — Infográfico de relatório de recomendação de batom da marca — Charts & Infographics
+- [case-360](../02-charts-infographics/INDEX.md#case-360) — Infográfico de análise de penteados longos — Charts & Infographics
+- [case-361](../02-charts-infographics/INDEX.md#case-361) — Vista explodida de smartphone — Charts & Infographics
+- [case-364](../02-charts-infographics/INDEX.md#case-364) — Infográfico de dossiê de coloração pessoal de luxo — Charts & Infographics
+- [case-375](../02-charts-infographics/INDEX.md#case-375) — Mapa urbano da linha do tempo dos três filósofos gregos — Charts & Infographics
+- [case-380](../02-charts-infographics/INDEX.md#case-380) — Infográfico científico de escala do coronavírus — Charts & Infographics
+- [case-407](../02-charts-infographics/INDEX.md#case-407) — Infográfico de sistema híbrido Neuro-AI — Charts & Infographics
+- [case-443](../02-charts-infographics/INDEX.md#case-443) — Infográfico de taco em vista explodida — Charts & Infographics
+- [case-447](../02-charts-infographics/INDEX.md#case-447) — Infográfico de engenharia de metrô moderno — Charts & Infographics
+- [case-456](../02-charts-infographics/INDEX.md#case-456) — Mapa visual 2x2 de eventos históricos — Charts & Infographics
+- [case-457](../02-charts-infographics/INDEX.md#case-457) — Pôster de light painting com rastros de dançarino — Charts & Infographics
+- [case-463](../02-charts-infographics/INDEX.md#case-463) — Ficha de catálogo de meia-liga preta — Charts & Infographics
+- [case-469](../02-charts-infographics/INDEX.md#case-469) — Livro ilustrado de divulgação científica guiada — Charts & Infographics
+- [case-494](../02-charts-infographics/INDEX.md#case-494) — Infográfico de engenharia de ônibus elétrico — Charts & Infographics

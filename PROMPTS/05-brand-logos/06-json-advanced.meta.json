@@ -1,0 +1,14 @@
+{
+  "id": "05-brand-logos/06-json-advanced",
+  "category": "05-brand-logos",
+  "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+  "title_en": "JSON advanced template (recommended for agents)",
+  "kind": "json",
+  "chars_zh": 501,
+  "chars_en": 501,
+  "files": {
+    "zh": "06-json-advanced.zh.txt",
+    "en": "06-json-advanced.en.txt"
+  },
+  "queue_ready": true
+}

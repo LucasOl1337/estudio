@@ -1,0 +1,14 @@
+{
+  "id": "10-scenes-storytelling/03-pitfalls",
+  "category": "10-scenes-storytelling",
+  "title_zh": "避坑指南",
+  "title_en": "Pitfalls guide",
+  "kind": "pitfalls",
+  "chars_zh": 124,
+  "chars_en": 140,
+  "files": {
+    "zh": "03-pitfalls.zh.txt",
+    "en": "03-pitfalls.en.txt"
+  },
+  "queue_ready": false
+}

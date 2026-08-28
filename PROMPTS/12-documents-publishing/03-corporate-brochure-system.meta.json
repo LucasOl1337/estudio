@@ -1,0 +1,14 @@
+{
+  "id": "12-documents-publishing/03-corporate-brochure-system",
+  "category": "12-documents-publishing",
+  "title_zh": "企业画册系统模板",
+  "title_en": "Corporate brochure system template",
+  "kind": "text",
+  "chars_zh": 284,
+  "chars_en": 862,
+  "files": {
+    "zh": "03-corporate-brochure-system.zh.txt",
+    "en": "03-corporate-brochure-system.en.txt"
+  },
+  "queue_ready": true
+}

@@ -1,0 +1,14 @@
+{
+  "id": "06-architecture-space/02-json-advanced",
+  "category": "06-architecture-space",
+  "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+  "title_en": "JSON advanced template (recommended for agents)",
+  "kind": "json",
+  "chars_zh": 557,
+  "chars_en": 557,
+  "files": {
+    "zh": "02-json-advanced.zh.txt",
+    "en": "02-json-advanced.en.txt"
+  },
+  "queue_ready": true
+}

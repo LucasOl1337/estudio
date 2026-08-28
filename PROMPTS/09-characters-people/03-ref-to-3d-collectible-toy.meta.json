@@ -1,0 +1,14 @@
+{
+  "id": "09-characters-people/03-ref-to-3d-collectible-toy",
+  "category": "09-characters-people",
+  "title_zh": "参考图转 3D 收藏玩具模板",
+  "title_en": "Reference-to-3D collectible toy template",
+  "kind": "text",
+  "chars_zh": 312,
+  "chars_en": 738,
+  "files": {
+    "zh": "03-ref-to-3d-collectible-toy.zh.txt",
+    "en": "03-ref-to-3d-collectible-toy.en.txt"
+  },
+  "queue_ready": true
+}

@@ -1,0 +1,14 @@
+{
+  "id": "03-posters-typography/03-conceptual-typography",
+  "category": "03-posters-typography",
+  "title_zh": "概念字体海报模板",
+  "title_en": "Conceptual typography poster template",
+  "kind": "text",
+  "chars_zh": 2212,
+  "chars_en": 2212,
+  "files": {
+    "zh": "03-conceptual-typography.zh.txt",
+    "en": "03-conceptual-typography.en.txt"
+  },
+  "queue_ready": true
+}

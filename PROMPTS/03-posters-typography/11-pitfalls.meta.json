@@ -1,0 +1,14 @@
+{
+  "id": "03-posters-typography/11-pitfalls",
+  "category": "03-posters-typography",
+  "title_zh": "避坑指南",
+  "title_en": "Pitfalls guide",
+  "kind": "pitfalls",
+  "chars_zh": 582,
+  "chars_en": 511,
+  "files": {
+    "zh": "11-pitfalls.zh.txt",
+    "en": "11-pitfalls.en.txt"
+  },
+  "queue_ready": false
+}

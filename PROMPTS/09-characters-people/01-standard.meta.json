@@ -1,0 +1,14 @@
+{
+  "id": "09-characters-people/01-standard",
+  "category": "09-characters-people",
+  "title_zh": "常规模板",
+  "title_en": "Standard template",
+  "kind": "text",
+  "chars_zh": 111,
+  "chars_en": 272,
+  "files": {
+    "zh": "01-standard.zh.txt",
+    "en": "01-standard.en.txt"
+  },
+  "queue_ready": true
+}

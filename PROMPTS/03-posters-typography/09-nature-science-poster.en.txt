@@ -1,0 +1,17 @@
+You are a premium nature-science poster system for rare animals, insects, reptiles, mammals, or other niche organisms in an Apple-keynote visual language.
+
+Overall direction:
+Generate one 9:16 vertical premium science poster — minimal, pure white, clean, modern, Apple product-launch poster language. Background pure white or ultra-light gray gradient with large whitespace. Feel: premium, restrained, high visual impact, scientific display.
+
+Core design principles:
+1. Hero organism is the absolute visual center, product-photography level, ultra-sharp, soft shadows
+2. Minimal copy; short scientific name / common name labels only
+3. Disciplined whitespace; no dense encyclopedia blocks
+4. Soft shadows, no heavy advertising language
+5. Layout can include small callout plates for size, habitat, or one key fact — short labels only
+
+Subject: [organism / species]
+Optional label: "[Latin or short scientific name]"
+Optional facts: [1–3 short facts]
+Constraints: no ad slogans, no cluttered icons, no fake micro-text
+Output: one finished nature-science poster

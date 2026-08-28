@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "purpose": "product-hero",
+  "case_ids": [
+    516,
+    358,
+    349,
+    339,
+    327,
+    313,
+    175,
+    150
+  ],
+  "template_ids": [
+    "04-products-ecommerce/01-standard",
+    "04-products-ecommerce/02-personalized-beauty-report",
+    "04-products-ecommerce/03-json-advanced",
+    "05-brand-logos/03-brand-touchpoint-board",
+    "07-photography-realism/01-standard",
+    "07-photography-realism/02-json-advanced"
+  ]
+}

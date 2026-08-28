@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "purpose": "character-development",
+  "case_ids": [
+    512,
+    507,
+    502,
+    480,
+    473,
+    439,
+    416,
+    398,
+    397,
+    384,
+    378,
+    372,
+    371,
+    347,
+    326,
+    325,
+    306,
+    271,
+    270,
+    263,
+    212,
+    162,
+    123,
+    41,
+    27,
+    25
+  ],
+  "template_ids": [
+    "09-characters-people/01-standard",
+    "09-characters-people/02-action-breakdown-sheet",
+    "09-characters-people/03-ref-to-3d-collectible-toy",
+    "09-characters-people/04-json-advanced"
+  ]
+}

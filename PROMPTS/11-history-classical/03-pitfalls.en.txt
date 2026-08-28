@@ -1,0 +1,2 @@
+- Specify dynasty/clothing system and object references.
+- No modern props (phones, backpacks) unless the brief is anachronistic on purpose.

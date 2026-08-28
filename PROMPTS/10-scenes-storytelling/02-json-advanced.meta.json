@@ -1,0 +1,14 @@
+{
+  "id": "10-scenes-storytelling/02-json-advanced",
+  "category": "10-scenes-storytelling",
+  "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+  "title_en": "JSON advanced template (recommended for agents)",
+  "kind": "json",
+  "chars_zh": 476,
+  "chars_en": 476,
+  "files": {
+    "zh": "02-json-advanced.zh.txt",
+    "en": "02-json-advanced.en.txt"
+  },
+  "queue_ready": true
+}

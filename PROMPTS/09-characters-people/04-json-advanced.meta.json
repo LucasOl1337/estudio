@@ -1,0 +1,14 @@
+{
+  "id": "09-characters-people/04-json-advanced",
+  "category": "09-characters-people",
+  "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+  "title_en": "JSON advanced template (recommended for agents)",
+  "kind": "json",
+  "chars_zh": 473,
+  "chars_en": 473,
+  "files": {
+    "zh": "04-json-advanced.zh.txt",
+    "en": "04-json-advanced.en.txt"
+  },
+  "queue_ready": true
+}

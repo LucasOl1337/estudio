@@ -1,0 +1,5 @@
+Generate an infographic on [topic: specific, not vague — e.g. "daily health guide for seniors" not "health"], target readers [audience: age, role, interests].
+Structure: [3–5 modules], information flow [left-to-right / top-to-bottom / hub-and-spoke].
+Visual system: color groups, short labels, icons/arrows, clean spacing.
+Constraints: no long paragraphs inside the image; short labels only.
+Output: clean educational infographic, aspect [ratio].

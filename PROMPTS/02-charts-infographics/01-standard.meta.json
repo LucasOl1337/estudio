@@ -1,0 +1,14 @@
+{
+  "id": "02-charts-infographics/01-standard",
+  "category": "02-charts-infographics",
+  "title_zh": "常规模板",
+  "title_en": "Standard template",
+  "kind": "text",
+  "chars_zh": 230,
+  "chars_en": 446,
+  "files": {
+    "zh": "01-standard.zh.txt",
+    "en": "01-standard.en.txt"
+  },
+  "queue_ready": true
+}

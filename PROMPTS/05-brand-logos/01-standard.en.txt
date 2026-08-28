@@ -1,0 +1,3 @@
+Design a brand visual system for [brand name].
+Positioning: [positioning], palette: [colors], typography: [type direction], logo usage rules, key touchpoints.
+Output: coherent brand board with aligned applications.

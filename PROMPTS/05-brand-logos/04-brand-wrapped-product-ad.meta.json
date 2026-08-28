@@ -1,0 +1,14 @@
+{
+  "id": "05-brand-logos/04-brand-wrapped-product-ad",
+  "category": "05-brand-logos",
+  "title_zh": "品牌包络产品广告模板",
+  "title_en": "Brand-wrapped product ad template",
+  "kind": "text",
+  "chars_zh": 308,
+  "chars_en": 578,
+  "files": {
+    "zh": "04-brand-wrapped-product-ad.zh.txt",
+    "en": "04-brand-wrapped-product-ad.en.txt"
+  },
+  "queue_ready": true
+}

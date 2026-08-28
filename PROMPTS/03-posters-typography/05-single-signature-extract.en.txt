@@ -1,0 +1,9 @@
+From the signature at [position / number / style name] in the input image, extract its core stroke energy and generate a pure signature plate.
+
+Requirements:
+- Keep only the signature; no poster card, title, subtitle, or caption
+- Preserve entry stroke, joins, structural slant, flying white, and exit rhythm from the original
+- Background pure white or very light warm white
+- Signature centered, large enough, clean edge whitespace
+- Ink deep black / ink black with natural brush tips, light ink marks, real handwriting pressure
+- Output high-res pure signature suitable for practice, collection, or secondary design

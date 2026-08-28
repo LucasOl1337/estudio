@@ -1,0 +1,5 @@
+Design a character sheet for [role / identity].
+Look: [age / hair / costume / props], personality: [keywords].
+Pose: [standing / action], expression: [emotion].
+World: [era / faction / job], signature element: [element].
+Output: main view + unified character design plate.

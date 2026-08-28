@@ -1,0 +1,4 @@
+Generate a [dynasty / classical setting] themed image on [theme].
+Clothing system, object references, layout format [scroll / album page / poster], cultural mood.
+Constraints: do not mix dynasties when accuracy matters; no random modern props.
+Output: historical / classical plate.

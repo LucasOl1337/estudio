@@ -1,0 +1,14 @@
+{
+  "id": "08-illustration-art/02-json-advanced",
+  "category": "08-illustration-art",
+  "title_zh": "JSON 进阶模板（推荐给 Agent 调用）",
+  "title_en": "JSON advanced template (recommended for agents)",
+  "kind": "json",
+  "chars_zh": 480,
+  "chars_en": 480,
+  "files": {
+    "zh": "02-json-advanced.zh.txt",
+    "en": "02-json-advanced.en.txt"
+  },
+  "queue_ready": true
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "purpose": "brand-system",
+  "case_ids": [
+    516,
+    510,
+    496,
+    478,
+    459,
+    444,
+    386,
+    379,
+    362,
+    354,
+    344,
+    342,
+    310,
+    294,
+    247,
+    244,
+    216,
+    186,
+    172,
+    160,
+    138,
+    137,
+    136,
+    135,
+    134,
+    132,
+    130,
+    115
+  ],
+  "template_ids": [
+    "05-brand-logos/01-standard",
+    "05-brand-logos/02-full-brand-identity-package",
+    "05-brand-logos/03-brand-touchpoint-board",
+    "05-brand-logos/04-brand-wrapped-product-ad",
+    "05-brand-logos/05-brand-personality-comic-infographic",
+    "05-brand-logos/06-json-advanced"
+  ]
+}

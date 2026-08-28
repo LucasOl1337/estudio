@@ -1,0 +1,15 @@
+Generate an enterprise commercial brochure visual system themed around [brand name]'s [industry / product / solution] brochure.
+
+Overall style: premium, professional, high visual impact; avoid Word-doc layout feel and generic PPT feel. Choose [dark tech aesthetic / white minimal business / premium industrial / art-direction brand brochure].
+
+Brochure content includes:
+1. Cover and back cover
+2. Company intro and brand philosophy
+3. Core products and technical strengths
+4. Application scenarios and solutions
+5. Client cases and partnership paths
+6. Contact / closing page
+
+Layout: clear type hierarchy, image figures, short body blocks, consistent grid and margins.
+Constraints: readable headings, no wall of micro-type, consistent visual system across pages.
+Output: corporate brochure system plates (cover + key inner spreads as one board or multi-panel).

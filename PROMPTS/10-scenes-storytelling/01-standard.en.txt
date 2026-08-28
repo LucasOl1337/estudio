@@ -1,0 +1,5 @@
+Generate a story scene on [story theme], set at [time + place].
+Who / conflict / emotion / camera framing.
+Scene details serve the narrative, not decoration.
+Constraints: no generic fantasy background; keep story cues visible.
+Output: single narrative frame / storyboard still.

@@ -1,0 +1,9 @@
+Input: [product image], [brand identity], [output format]
+
+PHASE 1 / ANCHOR: in 2 lines describe [brand identity] including palette, materials, light, and mood.
+PHASE 2 / INJECT: place [product] into this brand world; product obeys brand temperament and environment language.
+PHASE 3 / FORMAT: specify [output format] e.g. hero image, square ad, vertical story, or e-commerce header.
+PHASE 4 / SIGNAL: short slogan "[slogan]" and brand marks secondary but consistent.
+
+Constraints: no clashing styles; packaging/brand text accurate.
+Output: one premium brand-wrapped product ad.

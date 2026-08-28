@@ -1,0 +1,4 @@
+Produce a [document type, e.g. menu / magazine spread / newspaper layout].
+Page size, columns, hierarchy, figure system, short readable labels.
+Constraints: no tiny dense text; charts/captions align to the page grid.
+Output: publication-ready page plate.

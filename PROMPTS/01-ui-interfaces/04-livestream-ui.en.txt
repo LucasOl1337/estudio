@@ -1,0 +1,5 @@
+Generate a live-stream interface screenshot for [platform, e.g. Douyin / Kuaishou / Bilibili].
+Host area: [host description / camera framing].
+Overlay chrome: viewer count, gift/combo effects, scrolling comments, product card [product name + price].
+Style: [dark / light], accent [color], mobile [9:16].
+Constraints: readable live UI labels, no fake unreadable text, clear hierarchy of host vs overlays.

@@ -1,0 +1,60 @@
+# interface-design
+
+56 cases. [Índice](../00-INDICE.md)
+
+- [case-1](../01-ui-interfaces/INDEX.md#case-1) — Design de infográfico visual — UI & Interfaces
+- [case-4](../01-ui-interfaces/INDEX.md#case-4) — Sabor Lao Gan Ma — UI & Interfaces
+- [case-7](../01-ui-interfaces/INDEX.md#case-7) — Mockup de interface de aplicativo — UI & Interfaces
+- [case-21](../01-ui-interfaces/INDEX.md#case-21) — Design de interface de live — UI & Interfaces
+- [case-42](../01-ui-interfaces/INDEX.md#case-42) — Imagem em estilo de fotografia realista — UI & Interfaces
+- [case-48](../01-ui-interfaces/INDEX.md#case-48) — Design de interface de live — UI & Interfaces
+- [case-49](../01-ui-interfaces/INDEX.md#case-49) — Design de interface de live — UI & Interfaces
+- [case-57](../01-ui-interfaces/INDEX.md#case-57) — Diagrama de design de interação de interface — UI & Interfaces
+- [case-82](../01-ui-interfaces/INDEX.md#case-82) — Design de infográfico visual — UI & Interfaces
+- [case-90](../01-ui-interfaces/INDEX.md#case-90) — Design de infográfico visual — UI & Interfaces
+- [case-91](../01-ui-interfaces/INDEX.md#case-91) — Print de interface de jogo — UI & Interfaces
+- [case-103](../01-ui-interfaces/INDEX.md#case-103) — Interface de capa de vídeo — UI & Interfaces
+- [case-104](../01-ui-interfaces/INDEX.md#case-104) — Diagrama de design de interação de interface — UI & Interfaces
+- [case-107](../01-ui-interfaces/INDEX.md#case-107) — Mockup de interface de aplicativo — UI & Interfaces
+- [case-108](../01-ui-interfaces/INDEX.md#case-108) — Cena de aplicação integrada — UI & Interfaces
+- [case-109](../01-ui-interfaces/INDEX.md#case-109) — Cena de aplicação integrada — UI & Interfaces
+- [case-133](../01-ui-interfaces/INDEX.md#case-133) — Diagrama de design de interação de interface — UI & Interfaces
+- [case-145](../01-ui-interfaces/INDEX.md#case-145) — Cena de aplicação integrada — UI & Interfaces
+- [case-146](../01-ui-interfaces/INDEX.md#case-146) — Cena de aplicação integrada — UI & Interfaces
+- [case-148](../01-ui-interfaces/INDEX.md#case-148) — Cena de aplicação integrada — UI & Interfaces
+- [case-149](../01-ui-interfaces/INDEX.md#case-149) — Design de interface de live — UI & Interfaces
+- [case-152](../01-ui-interfaces/INDEX.md#case-152) — Design de interface de live — UI & Interfaces
+- [case-156](../01-ui-interfaces/INDEX.md#case-156) — Mockup de interface de aplicativo — UI & Interfaces
+- [case-158](../01-ui-interfaces/INDEX.md#case-158) — Diagrama de design de interação de interface — UI & Interfaces
+- [case-159](../01-ui-interfaces/INDEX.md#case-159) — Diagrama de design de interação de interface — UI & Interfaces
+- [case-161](../01-ui-interfaces/INDEX.md#case-161) — Mockup de interface de aplicativo — UI & Interfaces
+- [case-163](../01-ui-interfaces/INDEX.md#case-163) — Li Bai dançando em live ao luar — UI & Interfaces
+- [case-164](../01-ui-interfaces/INDEX.md#case-164) — Live espacial de Trump passando de 10 milhões — UI & Interfaces
+- [case-177](../01-ui-interfaces/INDEX.md#case-177) — Interface dark do cockpit Geely Galaxy — UI & Interfaces
+- [case-188](../01-ui-interfaces/INDEX.md#case-188) — Visual dark e minimalista de site de avatares — UI & Interfaces
+- [case-197](../01-ui-interfaces/INDEX.md#case-197) — Duelo no mid de League of Legends entre Trump e Khamenei — UI & Interfaces
+- [case-200](../01-ui-interfaces/INDEX.md#case-200) — Live de lingerie com audiência nas alturas — UI & Interfaces
+- [case-207](../01-ui-interfaces/INDEX.md#case-207) — Capa deslumbrante de jogo Black Myth: Pan Jinlian — UI & Interfaces
+- [case-209](../01-ui-interfaces/INDEX.md#case-209) — Mundo de tiroteio no Três Reinos mitológico — UI & Interfaces
+- [case-213](../01-ui-interfaces/INDEX.md#case-213) — Print de jogo open world de época de Jin Ping Mei — UI & Interfaces
+- [case-227](../01-ui-interfaces/INDEX.md#case-227) — Screenshot de live Bilibili do Hu Chenfeng — UI & Interfaces
+- [case-239](../01-ui-interfaces/INDEX.md#case-239) — Liu Yifei em live descontraída no Douyin — UI & Interfaces
+- [case-243](../01-ui-interfaces/INDEX.md#case-243) — Sistema de design de interface de estilo sob medida — UI & Interfaces
+- [case-255](../01-ui-interfaces/INDEX.md#case-255) — Streamer de calça de yoga exibindo as curvas — UI & Interfaces
+- [case-256](../01-ui-interfaces/INDEX.md#case-256) — Âncora deslumbrante na live Douyin — UI & Interfaces
+- [case-257](../01-ui-interfaces/INDEX.md#case-257) — Screenshot de live Douyin de bela em hanfu vendendo — UI & Interfaces
+- [case-258](../01-ui-interfaces/INDEX.md#case-258) — Screenshot de celular de live Kuaishou anunciando divórcio — UI & Interfaces
+- [case-261](../01-ui-interfaces/INDEX.md#case-261) — Interface dark de gerador inteligente de vídeo — UI & Interfaces
+- [case-269](../01-ui-interfaces/INDEX.md#case-269) — Screenshot caloroso de Canal WeChat recusando pressão para casar — UI & Interfaces
+- [case-280](../01-ui-interfaces/INDEX.md#case-280) — Design de diagramação de capa — UI & Interfaces
+- [case-282](../01-ui-interfaces/INDEX.md#case-282) — Print de celular 2D em clima suave e acolhedor — UI & Interfaces
+- [case-285](../01-ui-interfaces/INDEX.md#case-285) — Snapshot de cena de anime realista — UI & Interfaces
+- [case-288](../01-ui-interfaces/INDEX.md#case-288) — Design de interface de live Douyin de bela apresentadora — UI & Interfaces
+- [case-289](../01-ui-interfaces/INDEX.md#case-289) — Design de interface de live — UI & Interfaces
+- [case-308](../01-ui-interfaces/INDEX.md#case-308) — Tela de screenshot de live Douyin — UI & Interfaces
+- [case-330](../01-ui-interfaces/INDEX.md#case-330) — Tela de live de bela mulher ao luar — UI & Interfaces
+- [case-335](../01-ui-interfaces/INDEX.md#case-335) — Geração de print de Moments — UI & Interfaces
+- [case-336](../01-ui-interfaces/INDEX.md#case-336) — Design visual de página pessoal — UI & Interfaces
+- [case-387](../01-ui-interfaces/INDEX.md#case-387) — UI da home Netflix com visual-chave — UI & Interfaces
+- [case-400](../01-ui-interfaces/INDEX.md#case-400) — Pôster de escolha de assinatura em vários estilos — UI & Interfaces
+- [case-437](../01-ui-interfaces/INDEX.md#case-437) — Relatório de análise de estética facial — UI & Interfaces

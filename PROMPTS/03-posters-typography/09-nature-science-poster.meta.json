@@ -1,0 +1,14 @@
+{
+  "id": "03-posters-typography/09-nature-science-poster",
+  "category": "03-posters-typography",
+  "title_zh": "自然科普海报模板",
+  "title_en": "Nature science poster template",
+  "kind": "text",
+  "chars_zh": 1582,
+  "chars_en": 1059,
+  "files": {
+    "zh": "09-nature-science-poster.zh.txt",
+    "en": "09-nature-science-poster.en.txt"
+  },
+  "queue_ready": true
+}

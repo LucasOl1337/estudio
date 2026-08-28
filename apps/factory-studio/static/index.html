@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Estúdio — Fábrica de imagem</title>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <div class="app">
+    <header class="top">
+      <h1><span class="mark">Estúdio</span> Fábrica de imagem</h1>
+      <p class="lede">Escolhe a pessoa, as fotos, o tipo de uso e dispara a mesma pipeline da corrida em português.</p>
+      <div class="top-meta">
+        <span id="meta-line">a carregar…</span>
+        <button type="button" class="ghost" id="theme-btn" title="Tema">claro</button>
+      </div>
+    </header>
+
+    <section class="band">
+      <div class="col">
+        <h2>1. Pessoa</h2>
+        <label class="lbl">Alvo</label>
+        <select id="target"></select>
+        <div class="row">
+          <input id="new-name" placeholder="Nova pessoa (ex. ANA)" autocomplete="off">
+          <button type="button" class="ghost" id="create-btn">Criar</button>
+        </div>
+        <label class="lbl">Fotos de referência</label>
+        <div id="photos" class="photos"></div>
+        <label class="file-btn">
+          Adicionar fotos
+          <input type="file" id="photo-input" accept="image/*" multiple hidden>
+        </label>
+      </div>
+
+      <div class="col">
+        <h2>2. Tipo de uso</h2>
+        <div class="modes" id="modes">
+          <button type="button" class="mode on" data-mode="full-library">Biblioteca inteira<br><small>517 casos, fonte-fiel</small></button>
+          <button type="button" class="mode" data-mode="selected-library">Casos escolhidos<br><small>até 20 por disparo</small></button>
+          <button type="button" class="mode" data-mode="full-templates">Templates<br><small>47 prontos da fila</small></button>
+        </div>
+        <label class="lbl">Filtro de propósito</label>
+        <div id="purposes" class="chips"></div>
+        <label class="lbl">Categoria</label>
+        <div id="categories" class="chips"></div>
+      </div>
+
+      <div class="col">
+        <h2>3. Disparo</h2>
+        <label class="lbl">Nome desta leva</label>
+        <input id="focus" value="estudio-v1" autocomplete="off">
+        <label class="lbl">Provedor</label>
+        <div class="seg" id="providers">
+          <button type="button" class="on" data-p="codex">Codex</button>
+          <button type="button" data-p="grok">Grok</button>
+          <button type="button" data-p="both">Os dois</button>
+        </div>
+        <label class="lbl">Idioma do texto na peça</label>
+        <select id="lang">
+          <option value="Brazilian Portuguese (pt-BR)" selected>Português brasileiro</option>
+          <option value="English">Inglês</option>
+          <option value="">Como a fonte (sem traduzir)</option>
+        </select>
+        <label class="check"><input type="checkbox" id="dry"> Só montar os prompts (não gasta geração)</label>
+        <div class="actions">
+          <button type="button" class="primary" id="go">Gerar</button>
+          <button type="button" class="ghost danger" id="stop">Parar</button>
+        </div>
+        <p class="live" id="live">Pronto. Codex leva cerca de 1 a 2 min por imagem.</p>
+        <p class="hint" id="sel-hint">Biblioteca inteira — não precisa marcar casos.</p>
+      </div>
+    </section>
+
+    <section class="cases-wrap" id="cases-wrap" hidden>
+      <div class="cases-head">
+        <h2>Casos <span id="sel-count">0</span>/20</h2>
+        <input id="search" placeholder="Buscar título ou número">
+      </div>
+      <div id="cases" class="cases"></div>
+    </section>
+
+    <section class="archives">
+      <div class="archives-head">
+        <h2>Bibliotecas já geradas</h2>
+        <label class="check tight"><input type="checkbox" id="archives-all" checked> Todas as pessoas</label>
+      </div>
+      <div id="archives" class="archive-list"><span class="empty">Nenhuma leva com imagem ainda.</span></div>
+    </section>
+
+    <section class="work">
+      <div class="log-col">
+        <h2>Log</h2>
+        <pre id="log">Aguardando disparo.</pre>
+      </div>
+      <div class="gal-col">
+        <div class="gal-head">
+          <h2>Galeria desta leva</h2>
+          <button type="button" class="ghost" id="open-gal">Abrir galeria</button>
+        </div>
+        <div id="gallery" class="gallery"><span class="empty">Nada gerado nesta leva ainda.</span></div>
+      </div>
+    </section>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>

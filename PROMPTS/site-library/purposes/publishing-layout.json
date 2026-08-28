@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "purpose": "publishing-layout",
+  "case_ids": [
+    453,
+    303,
+    293,
+    266,
+    232,
+    225,
+    201,
+    168,
+    119,
+    13
+  ],
+  "template_ids": [
+    "12-documents-publishing/01-standard",
+    "12-documents-publishing/02-json-advanced",
+    "12-documents-publishing/03-corporate-brochure-system"
+  ]
+}

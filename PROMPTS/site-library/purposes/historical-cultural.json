@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "purpose": "historical-cultural",
+  "case_ids": [
+    415,
+    338,
+    337,
+    292,
+    268,
+    267,
+    234,
+    226,
+    206,
+    205,
+    185,
+    184,
+    176,
+    174,
+    167,
+    44
+  ],
+  "template_ids": [
+    "11-history-classical/01-standard",
+    "11-history-classical/02-json-advanced"
+  ]
+}

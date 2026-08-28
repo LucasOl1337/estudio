@@ -1,0 +1,14 @@
+{
+  "id": "13-other-use-cases/04-pitfalls",
+  "category": "13-other-use-cases",
+  "title_zh": "避坑指南",
+  "title_en": "Pitfalls guide",
+  "kind": "pitfalls",
+  "chars_zh": 103,
+  "chars_en": 152,
+  "files": {
+    "zh": "04-pitfalls.zh.txt",
+    "en": "04-pitfalls.en.txt"
+  },
+  "queue_ready": false
+}

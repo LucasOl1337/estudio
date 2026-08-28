@@ -1,0 +1,5 @@
+Task goal: [type of content to generate].
+Define artifact type, components, labels, material logic, final presentation format.
+Use clear callouts and a controlled technical style.
+Constraints: do not leave the task boundary vague; keep labels short and relations visible.
+Output: special-case visual system plate.

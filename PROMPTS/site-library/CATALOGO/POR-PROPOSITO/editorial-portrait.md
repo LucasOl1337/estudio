@@ -1,0 +1,48 @@
+# editorial-portrait
+
+44 cases. [Índice](../00-INDICE.md)
+
+- [case-28](../07-photography-realism/INDEX.md#case-28) — Criação em estilo de fotografia realista — Photography & Realism
+- [case-31](../07-photography-realism/INDEX.md#case-31) — Fotografia realista de retrato — Photography & Realism
+- [case-35](../07-photography-realism/INDEX.md#case-35) — Fotografia realista de retrato — Photography & Realism
+- [case-45](../07-photography-realism/INDEX.md#case-45) — Fotografia realista de retrato — Photography & Realism
+- [case-165](../07-photography-realism/INDEX.md#case-165) — Beleza fria no churrasco da feira noturna em três cortes — Photography & Realism
+- [case-187](../07-photography-realism/INDEX.md#case-187) — Ensaio de jovem em clima minimalista coreano — Photography & Realism
+- [case-195](../07-photography-realism/INDEX.md#case-195) — Fusão onírica de hiper-realismo e nanquim — Photography & Realism
+- [case-219](../07-photography-realism/INDEX.md#case-219) — Photobook 3x3 de ídolo no estilo coreano — Photography & Realism
+- [case-272](../07-photography-realism/INDEX.md#case-272) — Retrato em ryokan de águas termais — Photography & Realism
+- [case-273](../07-photography-realism/INDEX.md#case-273) — Silhueta solitária em degradê laranja-vermelho — Photography & Realism
+- [case-277](../07-photography-realism/INDEX.md#case-277) — Fotografia de charme luxuoso de mulher negra na orla — Photography & Realism
+- [case-357](../07-photography-realism/INDEX.md#case-357) — Retrato em café vintage no espelho olho de peixe — Photography & Realism
+- [case-377](../07-photography-realism/INDEX.md#case-377) — Retrato ao ar livre em café das cerejeiras — Photography & Realism
+- [case-382](../07-photography-realism/INDEX.md#case-382) — Colagem tríptica vertical de campo florido na primavera — Photography & Realism
+- [case-393](../07-photography-realism/INDEX.md#case-393) — Retrato Y2K na hora dourada — Photography & Realism
+- [case-399](../07-photography-realism/INDEX.md#case-399) — Retrato editorial na escada de gravadora — Photography & Realism
+- [case-412](../07-photography-realism/INDEX.md#case-412) — Campaign fashion de botões coloridos — Photography & Realism
+- [case-420](../07-photography-realism/INDEX.md#case-420) — Retrato de verão em baixo ângulo na pista vermelha — Photography & Realism
+- [case-421](../07-photography-realism/INDEX.md#case-421) — Retrato criativo com tela de iPhone cobrindo o rosto — Photography & Realism
+- [case-425](../07-photography-realism/INDEX.md#case-425) — Pôster colagem de retrato fashion em preto e branco — Photography & Realism
+- [case-426](../07-photography-realism/INDEX.md#case-426) — Ensaio de casal em café nipo-coreano — Photography & Realism
+- [case-427](../07-photography-realism/INDEX.md#case-427) — Colagem de retratos fashion 9-frame — Photography & Realism
+- [case-429](../07-photography-realism/INDEX.md#case-429) — Retrato de Hoodie rosa em conveniência coreana — Photography & Realism
+- [case-434](../07-photography-realism/INDEX.md#case-434) — Retrato em filme nas ruas de Tóquio — Photography & Realism
+- [case-436](../07-photography-realism/INDEX.md#case-436) — Retrato nostálgico na tela de câmera digital — Photography & Realism
+- [case-446](../08-illustration-art/INDEX.md#case-446) — Retrato masculino em papercraft low-poly — Illustration & Art
+- [case-451](../07-photography-realism/INDEX.md#case-451) — Retrato fashion no pôr do sol de uma praia coreana — Photography & Realism
+- [case-465](../07-photography-realism/INDEX.md#case-465) — Ensaio emocional de costas femininas em contraluz — Photography & Realism
+- [case-471](../08-illustration-art/INDEX.md#case-471) — Retrato anime de quimono com kanzashi — Illustration & Art
+- [case-482](../07-photography-realism/INDEX.md#case-482) — Campaign surreal de autocontemplação — Photography & Realism
+- [case-483](../07-photography-realism/INDEX.md#case-483) — Retrato de rua urbano com pássaro em voo — Photography & Realism
+- [case-484](../03-posters-typography/INDEX.md#case-484) — Retrato em preto e branco com graffiti neon — Posters & Typography
+- [case-488](../07-photography-realism/INDEX.md#case-488) — Retrato ao pôr do sol em quadra no terraço — Photography & Realism
+- [case-490](../07-photography-realism/INDEX.md#case-490) — Retrato fashion em dupla exposição — Photography & Realism
+- [case-492](../07-photography-realism/INDEX.md#case-492) — Ensaio em suíte de hotel de alta-costura preta — Photography & Realism
+- [case-499](../07-photography-realism/INDEX.md#case-499) — Editorial de corpo inteiro em boutique minimalista — Photography & Realism
+- [case-500](../07-photography-realism/INDEX.md#case-500) — Retrato onírico com coroa de flores no reino encantado — Photography & Realism
+- [case-501](../07-photography-realism/INDEX.md#case-501) — Retrato cinematográfico de verão de mãos dadas com olhar para trás — Photography & Realism
+- [case-504](../08-illustration-art/INDEX.md#case-504) — Edição de retrato em graffiti tosco — Illustration & Art
+- [case-505](../07-photography-realism/INDEX.md#case-505) — Retrato no sofá com luz de celular à noite — Photography & Realism
+- [case-508](../07-photography-realism/INDEX.md#case-508) — Retrato aéreo de gato no pátio com luz entre as folhas — Photography & Realism
+- [case-509](../07-photography-realism/INDEX.md#case-509) — Ensaio em estúdio correndo e puxando a roupa com graffiti — Photography & Realism
+- [case-514](../08-illustration-art/INDEX.md#case-514) — Retrato de arte moderna de bordas duras — Illustration & Art
+- [case-518](../07-photography-realism/INDEX.md#case-518) — Retrato de verão com vento no campo florido — Photography & Realism

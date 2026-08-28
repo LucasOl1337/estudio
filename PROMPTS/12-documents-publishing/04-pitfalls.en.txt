@@ -1,0 +1,2 @@
+- Define page size, columns, TOC/figure system, type hierarchy first.
+- Avoid dense tiny text; keep charts and captions on the grid.

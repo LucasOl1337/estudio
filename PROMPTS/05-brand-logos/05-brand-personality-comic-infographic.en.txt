@@ -1,0 +1,7 @@
+From the uploaded [logo / brand visual], generate a 4:5 vertical comic infographic: "What This Brand Feels Like".
+Goal: turn the brand into a perceivable personality character and explain how it speaks, acts, sells, answers competition, and handles criticism.
+Core rule: all colors, costume, pose, tone, and graphic elements come from the logo and brand keywords.
+Hero: a brand-personified character whose outfit, expression, and pose embody [brand temperament].
+Around it: 6–8 comic panels, each with a short label + simple scene.
+Constraints: short labels only; no long paragraphs; character consistency across panels.
+Output: one comic-infographic plate.

@@ -1,0 +1,5 @@
+Generate a scientific scale diagram for [topic].
+Use [6–8] scale frames from micro to macro; each frame has a short unit/magnification label and distinct detail.
+Style: premium science poster, clean white/light background, disciplined labels.
+Constraints: frames must not look identical; avoid generic magnifying-glass layouts.
+Output: labeled multi-scale science plate.

@@ -1,0 +1,4 @@
+- Do not give vague instructions: lock "platform + ratio + layout" or the model will layout randomly.
+- Force text lock: require "text must be fully readable; show the specified copy" to avoid gibberish buttons.
+- Screenshot platforms differ: X has blue check + repost/quote; Douyin has music disc + like animation; Xiaohongshu has dual-column waterfall. Specify the platform first.
+- Live UI: define the scene first (selling / chat / gaming) before chrome details.

@@ -1,0 +1,14 @@
+{
+  "id": "02-charts-infographics/03-scientific-scale-diagram",
+  "category": "02-charts-infographics",
+  "title_zh": "尺度缩放科学信息图模板",
+  "title_en": "Scientific scale diagram template",
+  "kind": "text",
+  "chars_zh": 235,
+  "chars_en": 370,
+  "files": {
+    "zh": "03-scientific-scale-diagram.zh.txt",
+    "en": "03-scientific-scale-diagram.en.txt"
+  },
+  "queue_ready": true
+}

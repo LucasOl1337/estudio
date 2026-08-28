@@ -1,0 +1,8 @@
+Design a [sport / fitness category] commercial campaign poster.
+Subject: [athlete / model / product prop], pose: [seated / sprint / swing / strength move].
+Hero prop: [racket / dumbbell / sneaker / jersey], exaggerated scale or diagonal composition as visual anchor.
+Layout: [single strong hero / triptych / data-doodle poster].
+Big title: "[main title]", support copy: "[short line / data / spirit slogan]".
+Visual style: premium sports-brand ad, strong light, reflective floor, clean composition, branded palette [primary+secondary].
+Constraints: clear subject, readable type, unified color, no noisy collage, no wrong sports gear.
+Output: 1:1 or 4:5 sports commercial visual for social.

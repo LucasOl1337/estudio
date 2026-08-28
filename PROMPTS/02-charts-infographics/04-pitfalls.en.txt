@@ -1,0 +1,3 @@
+- Force module count and chart types; unlimited modules become clutter.
+- Keep labels short; never paste long body copy into the image.
+- Scale diagrams need distinct detail per frame and explicit units.

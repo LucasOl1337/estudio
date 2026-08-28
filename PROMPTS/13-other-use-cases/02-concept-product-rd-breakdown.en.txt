@@ -1,0 +1,15 @@
+Generate a full concept product R&D breakdown board for [product / furniture / installation] — not a single finished render.
+
+Core concept:
+Translate [inspiration source, e.g. crumpled paper / shell / origami / mechanical structure] into [product type].
+Design philosophy: [one sentence on function + emotion, e.g. "controlled chaos turned into high-comfort seating"].
+
+Board structure:
+- Center: high-quality hero render of final form, materials, proportions
+- Left: observation and form analysis — inspiration images, contour extraction, structure lines, crease/texture/force notes
+- Right: exploded components with short callouts [part names]
+- Bottom: material chips, finish notes, scale references
+
+Material logic: [materials]; controlled technical line style; short labels.
+Constraints: short labels, component relationships visible, no unspecified mixed tasks.
+Output: one R&D / exploded-view board.

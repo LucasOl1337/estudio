@@ -1,0 +1,14 @@
+{
+  "id": "01-ui-interfaces/04-livestream-ui",
+  "category": "01-ui-interfaces",
+  "title_zh": "直播界面模板",
+  "title_en": "Live-stream UI template",
+  "kind": "text",
+  "chars_zh": 292,
+  "chars_en": 403,
+  "files": {
+    "zh": "04-livestream-ui.zh.txt",
+    "en": "04-livestream-ui.en.txt"
+  },
+  "queue_ready": true
+}

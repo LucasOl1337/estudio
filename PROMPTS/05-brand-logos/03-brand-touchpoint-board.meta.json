@@ -1,0 +1,14 @@
+{
+  "id": "05-brand-logos/03-brand-touchpoint-board",
+  "category": "05-brand-logos",
+  "title_zh": "品牌触点系统视觉板模板",
+  "title_en": "Brand touchpoint system board template",
+  "kind": "text",
+  "chars_zh": 454,
+  "chars_en": 758,
+  "files": {
+    "zh": "03-brand-touchpoint-board.zh.txt",
+    "en": "03-brand-touchpoint-board.en.txt"
+  },
+  "queue_ready": true
+}

@@ -1,0 +1,1453 @@
+{
+  "schema_version": 1,
+  "templates": [
+    {
+      "primary_purpose": "interface-design",
+      "secondary_purposes": [],
+      "output_topology": "ui-screen",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "product",
+        "interface"
+      ],
+      "medium": "ui-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "01-ui-interfaces/01-standard",
+      "category": "01-ui-interfaces",
+      "category_name": "UI & Interfaces",
+      "title_en": "Standard template",
+      "kind": "text",
+      "source_file": "01-ui-interfaces/01-standard.en.txt",
+      "visual_recipe": "platform-faithful interface hierarchy, readable controls, realistic screen chrome",
+      "compatible_purposes": [
+        "interface-design",
+        "social-cover"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "interface-design",
+      "secondary_purposes": [],
+      "output_topology": "ui-screen",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "product",
+        "interface"
+      ],
+      "medium": "ui-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "01-ui-interfaces/02-json-advanced",
+      "category": "01-ui-interfaces",
+      "category_name": "UI & Interfaces",
+      "title_en": "JSON advanced template (recommended for agents)",
+      "kind": "json",
+      "source_file": "01-ui-interfaces/02-json-advanced.en.txt",
+      "visual_recipe": "platform-faithful interface hierarchy, readable controls, realistic screen chrome",
+      "compatible_purposes": [
+        "interface-design",
+        "social-cover"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "interface-design",
+      "secondary_purposes": [
+        "social-cover"
+      ],
+      "output_topology": "ui-screen",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "interface"
+      ],
+      "medium": "ui-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "01-ui-interfaces/03-screenshot",
+      "category": "01-ui-interfaces",
+      "category_name": "UI & Interfaces",
+      "title_en": "Screenshot generation template",
+      "kind": "text",
+      "source_file": "01-ui-interfaces/03-screenshot.en.txt",
+      "visual_recipe": "platform-faithful interface hierarchy, readable controls, realistic screen chrome",
+      "compatible_purposes": [
+        "interface-design",
+        "social-cover"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "interface-design",
+      "secondary_purposes": [],
+      "output_topology": "ui-screen",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person",
+        "product",
+        "interface"
+      ],
+      "medium": "ui-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "01-ui-interfaces/04-livestream-ui",
+      "category": "01-ui-interfaces",
+      "category_name": "UI & Interfaces",
+      "title_en": "Live-stream UI template",
+      "kind": "text",
+      "source_file": "01-ui-interfaces/04-livestream-ui.en.txt",
+      "visual_recipe": "platform-faithful interface hierarchy, readable controls, realistic screen chrome",
+      "compatible_purposes": [
+        "interface-design",
+        "social-cover"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "information-explainer",
+      "secondary_purposes": [],
+      "output_topology": "document-page",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "project"
+      ],
+      "medium": "diagram-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "02-charts-infographics/01-standard",
+      "category": "02-charts-infographics",
+      "category_name": "Charts & Infographics",
+      "title_en": "Standard template",
+      "kind": "text",
+      "source_file": "02-charts-infographics/01-standard.en.txt",
+      "visual_recipe": "structured information hierarchy, concise modules, clear flow and disciplined spacing",
+      "compatible_purposes": [
+        "information-explainer",
+        "concept-development"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "information-explainer",
+      "secondary_purposes": [],
+      "output_topology": "document-page",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "project"
+      ],
+      "medium": "diagram-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "02-charts-infographics/02-json-advanced",
+      "category": "02-charts-infographics",
+      "category_name": "Charts & Infographics",
+      "title_en": "JSON advanced template (recommended for agents)",
+      "kind": "json",
+      "source_file": "02-charts-infographics/02-json-advanced.en.txt",
+      "visual_recipe": "structured information hierarchy, concise modules, clear flow and disciplined spacing",
+      "compatible_purposes": [
+        "information-explainer",
+        "concept-development"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "information-explainer",
+      "secondary_purposes": [],
+      "output_topology": "document-page",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "project"
+      ],
+      "medium": "diagram-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "02-charts-infographics/03-scientific-scale-diagram",
+      "category": "02-charts-infographics",
+      "category_name": "Charts & Infographics",
+      "title_en": "Scientific scale diagram template",
+      "kind": "text",
+      "source_file": "02-charts-infographics/03-scientific-scale-diagram.en.txt",
+      "visual_recipe": "structured information hierarchy, concise modules, clear flow and disciplined spacing",
+      "compatible_purposes": [
+        "information-explainer",
+        "concept-development"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "campaign-key-visual",
+      "secondary_purposes": [],
+      "output_topology": "poster-canvas",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "product"
+      ],
+      "medium": "graphic-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "03-posters-typography/01-standard",
+      "category": "03-posters-typography",
+      "category_name": "Posters & Typography",
+      "title_en": "Standard template",
+      "kind": "text",
+      "source_file": "03-posters-typography/01-standard.en.txt",
+      "visual_recipe": "strong focal hierarchy, deliberate negative space, controlled campaign composition",
+      "compatible_purposes": [
+        "campaign-key-visual",
+        "social-cover"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "campaign-key-visual",
+      "secondary_purposes": [],
+      "output_topology": "multi-panel",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person",
+        "product"
+      ],
+      "medium": "graphic-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "multi-output-canvas",
+        "text-rendering",
+        "brand-literal"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "03-posters-typography/02-sports-campaign",
+      "category": "03-posters-typography",
+      "category_name": "Posters & Typography",
+      "title_en": "Sports campaign poster template",
+      "kind": "text",
+      "source_file": "03-posters-typography/02-sports-campaign.en.txt",
+      "visual_recipe": "strong focal hierarchy, deliberate negative space, controlled campaign composition",
+      "compatible_purposes": [
+        "campaign-key-visual",
+        "social-cover"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "campaign-key-visual",
+      "secondary_purposes": [],
+      "output_topology": "multi-panel",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person"
+      ],
+      "medium": "graphic-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "multi-output-canvas",
+        "text-rendering",
+        "brand-literal"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "03-posters-typography/03-conceptual-typography",
+      "category": "03-posters-typography",
+      "category_name": "Posters & Typography",
+      "title_en": "Conceptual typography poster template",
+      "kind": "text",
+      "source_file": "03-posters-typography/03-conceptual-typography.en.txt",
+      "visual_recipe": "strong focal hierarchy, deliberate negative space, controlled campaign composition",
+      "compatible_purposes": [
+        "campaign-key-visual",
+        "social-cover"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "campaign-key-visual",
+      "secondary_purposes": [],
+      "output_topology": "multi-panel",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person"
+      ],
+      "medium": "graphic-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "multi-output-canvas",
+        "text-rendering",
+        "brand-literal"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "03-posters-typography/04-multi-style-signature-poster",
+      "category": "03-posters-typography",
+      "category_name": "Posters & Typography",
+      "title_en": "Multi-style signature selection poster template",
+      "kind": "text",
+      "source_file": "03-posters-typography/04-multi-style-signature-poster.en.txt",
+      "visual_recipe": "strong focal hierarchy, deliberate negative space, controlled campaign composition",
+      "compatible_purposes": [
+        "campaign-key-visual",
+        "social-cover"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "campaign-key-visual",
+      "secondary_purposes": [],
+      "output_topology": "poster-canvas",
+      "text_policy": "required",
+      "reference_mode": "required",
+      "target_kinds": [
+        "mixed"
+      ],
+      "medium": "graphic-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "03-posters-typography/05-single-signature-extract",
+      "category": "03-posters-typography",
+      "category_name": "Posters & Typography",
+      "title_en": "Single signature extraction template",
+      "kind": "text",
+      "source_file": "03-posters-typography/05-single-signature-extract.en.txt",
+      "visual_recipe": "strong focal hierarchy, deliberate negative space, controlled campaign composition",
+      "compatible_purposes": [
+        "campaign-key-visual",
+        "social-cover"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "campaign-key-visual",
+      "secondary_purposes": [],
+      "output_topology": "poster-canvas",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "mixed"
+      ],
+      "medium": "graphic-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "03-posters-typography/06-signature-practice-breakdown",
+      "category": "03-posters-typography",
+      "category_name": "Posters & Typography",
+      "title_en": "Signature practice breakdown template",
+      "kind": "text",
+      "source_file": "03-posters-typography/06-signature-practice-breakdown.en.txt",
+      "visual_recipe": "strong focal hierarchy, deliberate negative space, controlled campaign composition",
+      "compatible_purposes": [
+        "campaign-key-visual",
+        "social-cover"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "campaign-key-visual",
+      "secondary_purposes": [],
+      "output_topology": "multi-panel",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person"
+      ],
+      "medium": "graphic-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "multi-output-canvas",
+        "text-rendering",
+        "brand-literal"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "03-posters-typography/07-conceptual-typography-zh",
+      "category": "03-posters-typography",
+      "category_name": "Posters & Typography",
+      "title_en": "Conceptual typography poster template (Chinese version)",
+      "kind": "text",
+      "source_file": "03-posters-typography/07-conceptual-typography-zh.en.txt",
+      "visual_recipe": "strong focal hierarchy, deliberate negative space, controlled campaign composition",
+      "compatible_purposes": [
+        "campaign-key-visual",
+        "social-cover"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "campaign-key-visual",
+      "secondary_purposes": [],
+      "output_topology": "multi-panel",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person"
+      ],
+      "medium": "graphic-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "multi-output-canvas",
+        "text-rendering",
+        "brand-literal"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "03-posters-typography/08-ink-double-exposure",
+      "category": "03-posters-typography",
+      "category_name": "Posters & Typography",
+      "title_en": "Ink double-exposure portrait poster template",
+      "kind": "text",
+      "source_file": "03-posters-typography/08-ink-double-exposure.en.txt",
+      "visual_recipe": "strong focal hierarchy, deliberate negative space, controlled campaign composition",
+      "compatible_purposes": [
+        "campaign-key-visual",
+        "social-cover"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "campaign-key-visual",
+      "secondary_purposes": [],
+      "output_topology": "poster-canvas",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "product"
+      ],
+      "medium": "graphic-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "03-posters-typography/09-nature-science-poster",
+      "category": "03-posters-typography",
+      "category_name": "Posters & Typography",
+      "title_en": "Nature science poster template",
+      "kind": "text",
+      "source_file": "03-posters-typography/09-nature-science-poster.en.txt",
+      "visual_recipe": "strong focal hierarchy, deliberate negative space, controlled campaign composition",
+      "compatible_purposes": [
+        "campaign-key-visual",
+        "social-cover"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "campaign-key-visual",
+      "secondary_purposes": [],
+      "output_topology": "poster-canvas",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "mixed"
+      ],
+      "medium": "graphic-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "03-posters-typography/10-json-advanced",
+      "category": "03-posters-typography",
+      "category_name": "Posters & Typography",
+      "title_en": "JSON advanced template (recommended for agents)",
+      "kind": "json",
+      "source_file": "03-posters-typography/10-json-advanced.en.txt",
+      "visual_recipe": "strong focal hierarchy, deliberate negative space, controlled campaign composition",
+      "compatible_purposes": [
+        "campaign-key-visual",
+        "social-cover"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "product-commerce",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "product"
+      ],
+      "medium": "commercial-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "04-products-ecommerce/01-standard",
+      "category": "04-products-ecommerce",
+      "category_name": "Products & E-commerce",
+      "title_en": "Standard template",
+      "kind": "text",
+      "source_file": "04-products-ecommerce/01-standard.en.txt",
+      "visual_recipe": "product-first composition, material fidelity, commercial lighting and clear selling hierarchy",
+      "compatible_purposes": [
+        "product-commerce",
+        "product-hero",
+        "campaign-key-visual"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "product-commerce",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person",
+        "product"
+      ],
+      "medium": "commercial-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering",
+        "brand-literal"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "04-products-ecommerce/02-personalized-beauty-report",
+      "category": "04-products-ecommerce",
+      "category_name": "Products & E-commerce",
+      "title_en": "Personalized beauty recommendation report template",
+      "kind": "text",
+      "source_file": "04-products-ecommerce/02-personalized-beauty-report.en.txt",
+      "visual_recipe": "product-first composition, material fidelity, commercial lighting and clear selling hierarchy",
+      "compatible_purposes": [
+        "product-commerce",
+        "product-hero",
+        "campaign-key-visual"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "product-commerce",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "product"
+      ],
+      "medium": "commercial-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "04-products-ecommerce/03-json-advanced",
+      "category": "04-products-ecommerce",
+      "category_name": "Products & E-commerce",
+      "title_en": "JSON advanced template (recommended for agents)",
+      "kind": "json",
+      "source_file": "04-products-ecommerce/03-json-advanced.en.txt",
+      "visual_recipe": "product-first composition, material fidelity, commercial lighting and clear selling hierarchy",
+      "compatible_purposes": [
+        "product-commerce",
+        "product-hero",
+        "campaign-key-visual"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "brand-system",
+      "secondary_purposes": [],
+      "output_topology": "multi-panel",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "brand"
+      ],
+      "medium": "brand-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "multi-output-canvas",
+        "text-rendering",
+        "brand-literal"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "05-brand-logos/01-standard",
+      "category": "05-brand-logos",
+      "category_name": "Brand & Logos",
+      "title_en": "Standard template",
+      "kind": "text",
+      "source_file": "05-brand-logos/01-standard.en.txt",
+      "visual_recipe": "coherent identity system, consistent palette, typography logic and disciplined applications",
+      "compatible_purposes": [
+        "brand-system",
+        "campaign-key-visual"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "brand-system",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person",
+        "product",
+        "brand"
+      ],
+      "medium": "brand-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering",
+        "brand-literal"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "05-brand-logos/02-full-brand-identity-package",
+      "category": "05-brand-logos",
+      "category_name": "Brand & Logos",
+      "title_en": "Full brand identity package template",
+      "kind": "text",
+      "source_file": "05-brand-logos/02-full-brand-identity-package.en.txt",
+      "visual_recipe": "coherent identity system, consistent palette, typography logic and disciplined applications",
+      "compatible_purposes": [
+        "brand-system",
+        "campaign-key-visual"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "product-hero",
+      "secondary_purposes": [
+        "brand-system"
+      ],
+      "output_topology": "single-frame",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person",
+        "product",
+        "brand"
+      ],
+      "medium": "brand-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering",
+        "brand-literal"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "05-brand-logos/03-brand-touchpoint-board",
+      "category": "05-brand-logos",
+      "category_name": "Brand & Logos",
+      "title_en": "Brand touchpoint system board template",
+      "kind": "text",
+      "source_file": "05-brand-logos/03-brand-touchpoint-board.en.txt",
+      "visual_recipe": "coherent identity system, consistent palette, typography logic and disciplined applications",
+      "compatible_purposes": [
+        "product-hero",
+        "brand-system",
+        "campaign-key-visual"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "brand-system",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "product",
+        "brand"
+      ],
+      "medium": "brand-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering",
+        "brand-literal"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "05-brand-logos/04-brand-wrapped-product-ad",
+      "category": "05-brand-logos",
+      "category_name": "Brand & Logos",
+      "title_en": "Brand-wrapped product ad template",
+      "kind": "text",
+      "source_file": "05-brand-logos/04-brand-wrapped-product-ad.en.txt",
+      "visual_recipe": "coherent identity system, consistent palette, typography logic and disciplined applications",
+      "compatible_purposes": [
+        "brand-system",
+        "campaign-key-visual"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "brand-system",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person",
+        "brand"
+      ],
+      "medium": "brand-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering",
+        "brand-literal"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "05-brand-logos/05-brand-personality-comic-infographic",
+      "category": "05-brand-logos",
+      "category_name": "Brand & Logos",
+      "title_en": "Brand personality comic infographic template",
+      "kind": "text",
+      "source_file": "05-brand-logos/05-brand-personality-comic-infographic.en.txt",
+      "visual_recipe": "coherent identity system, consistent palette, typography logic and disciplined applications",
+      "compatible_purposes": [
+        "brand-system",
+        "campaign-key-visual"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "brand-system",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "brand"
+      ],
+      "medium": "brand-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering",
+        "brand-literal"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "05-brand-logos/06-json-advanced",
+      "category": "05-brand-logos",
+      "category_name": "Brand & Logos",
+      "title_en": "JSON advanced template (recommended for agents)",
+      "kind": "json",
+      "source_file": "05-brand-logos/06-json-advanced.en.txt",
+      "visual_recipe": "coherent identity system, consistent palette, typography logic and disciplined applications",
+      "compatible_purposes": [
+        "brand-system",
+        "campaign-key-visual"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "space-visualization",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "place"
+      ],
+      "medium": "spatial-visualization",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "06-architecture-space/01-standard",
+      "category": "06-architecture-space",
+      "category_name": "Architecture & Spaces",
+      "title_en": "Standard template",
+      "kind": "text",
+      "source_file": "06-architecture-space/01-standard.en.txt",
+      "visual_recipe": "credible perspective, spatial function, material realism and intentional environmental light",
+      "compatible_purposes": [
+        "space-visualization"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "space-visualization",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "optional",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "place"
+      ],
+      "medium": "spatial-visualization",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "06-architecture-space/02-json-advanced",
+      "category": "06-architecture-space",
+      "category_name": "Architecture & Spaces",
+      "title_en": "JSON advanced template (recommended for agents)",
+      "kind": "json",
+      "source_file": "06-architecture-space/02-json-advanced.en.txt",
+      "visual_recipe": "credible perspective, spatial function, material realism and intentional environmental light",
+      "compatible_purposes": [
+        "space-visualization"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "lifestyle-photography",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "forbidden",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person"
+      ],
+      "medium": "photography",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "07-photography-realism/01-standard",
+      "category": "07-photography-realism",
+      "category_name": "Photography & Realism",
+      "title_en": "Standard template",
+      "kind": "text",
+      "source_file": "07-photography-realism/01-standard.en.txt",
+      "visual_recipe": "standalone realistic photograph; explicit lens, camera distance, motivated light, natural texture and one decisive moment",
+      "compatible_purposes": [
+        "lifestyle-photography",
+        "profile-portrait",
+        "editorial-portrait",
+        "product-hero"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "lifestyle-photography",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "forbidden",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "mixed"
+      ],
+      "medium": "photography",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "literal-role"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "07-photography-realism/02-json-advanced",
+      "category": "07-photography-realism",
+      "category_name": "Photography & Realism",
+      "title_en": "JSON advanced template (recommended for agents)",
+      "kind": "json",
+      "source_file": "07-photography-realism/02-json-advanced.en.txt",
+      "visual_recipe": "standalone cinematic photograph; shallow depth of field, motivated rim light, wet-window reflections and subtle film grain; omit every example person, occupation, prop and venue",
+      "compatible_purposes": [
+        "lifestyle-photography",
+        "profile-portrait",
+        "editorial-portrait",
+        "product-hero"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "lifestyle-photography",
+      "secondary_purposes": [
+        "profile-portrait"
+      ],
+      "output_topology": "single-frame",
+      "text_policy": "forbidden",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person"
+      ],
+      "medium": "photography",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "brand-literal"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "07-photography-realism/03-street-accident-moment",
+      "category": "07-photography-realism",
+      "category_name": "Photography & Realism",
+      "title_en": "Street accident candid photography template",
+      "kind": "text",
+      "source_file": "07-photography-realism/03-street-accident-moment.en.txt",
+      "visual_recipe": "standalone candid phone photograph; plausible action, grounded street context, natural motion blur and unstaged light",
+      "compatible_purposes": [
+        "lifestyle-photography",
+        "profile-portrait",
+        "editorial-portrait"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "artistic-exploration",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "optional",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person"
+      ],
+      "medium": "illustration",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "08-illustration-art/01-standard",
+      "category": "08-illustration-art",
+      "category_name": "Illustration & Art",
+      "title_en": "Standard template",
+      "kind": "text",
+      "source_file": "08-illustration-art/01-standard.en.txt",
+      "visual_recipe": "intentional composition, coherent material or brush language, controlled palette and rendering depth",
+      "compatible_purposes": [
+        "artistic-exploration",
+        "campaign-key-visual",
+        "narrative-scene"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "artistic-exploration",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "optional",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person"
+      ],
+      "medium": "illustration",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "08-illustration-art/02-json-advanced",
+      "category": "08-illustration-art",
+      "category_name": "Illustration & Art",
+      "title_en": "JSON advanced template (recommended for agents)",
+      "kind": "json",
+      "source_file": "08-illustration-art/02-json-advanced.en.txt",
+      "visual_recipe": "intentional composition, coherent material or brush language, controlled palette and rendering depth",
+      "compatible_purposes": [
+        "artistic-exploration",
+        "campaign-key-visual",
+        "narrative-scene"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "character-development",
+      "secondary_purposes": [],
+      "output_topology": "multi-panel",
+      "text_policy": "optional",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person"
+      ],
+      "medium": "character-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "multi-output-canvas"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "09-characters-people/01-standard",
+      "category": "09-characters-people",
+      "category_name": "Characters & People",
+      "title_en": "Standard template",
+      "kind": "text",
+      "source_file": "09-characters-people/01-standard.en.txt",
+      "visual_recipe": "unified character design sheet with a main view and supporting pose or detail views",
+      "compatible_purposes": [
+        "character-development"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "character-development",
+      "secondary_purposes": [
+        "narrative-scene"
+      ],
+      "output_topology": "sequence",
+      "text_policy": "optional",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person"
+      ],
+      "medium": "character-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "multi-output-canvas"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "09-characters-people/02-action-breakdown-sheet",
+      "category": "09-characters-people",
+      "category_name": "Characters & People",
+      "title_en": "Action breakdown reference sheet template",
+      "kind": "text",
+      "source_file": "09-characters-people/02-action-breakdown-sheet.en.txt",
+      "visual_recipe": "multi-panel action reference sheet with consistent identity and readable motion progression",
+      "compatible_purposes": [
+        "character-development",
+        "narrative-scene"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "character-development",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "forbidden",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person"
+      ],
+      "medium": "character-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "literal-role",
+        "brand-literal"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "09-characters-people/03-ref-to-3d-collectible-toy",
+      "category": "09-characters-people",
+      "category_name": "Characters & People",
+      "title_en": "Reference-to-3D collectible toy template",
+      "kind": "text",
+      "source_file": "09-characters-people/03-ref-to-3d-collectible-toy.en.txt",
+      "visual_recipe": "single premium collectible figure presentation preserving identity anchors and material detail",
+      "compatible_purposes": [
+        "character-development"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "character-development",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "optional",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person"
+      ],
+      "medium": "character-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "09-characters-people/04-json-advanced",
+      "category": "09-characters-people",
+      "category_name": "Characters & People",
+      "title_en": "JSON advanced template (recommended for agents)",
+      "kind": "json",
+      "source_file": "09-characters-people/04-json-advanced.en.txt",
+      "visual_recipe": "single stylized character concept with coherent attire, pose, environment and rendering language; omit every example identity and weapon",
+      "compatible_purposes": [
+        "character-development"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "narrative-scene",
+      "secondary_purposes": [],
+      "output_topology": "sequence",
+      "text_policy": "optional",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "mixed"
+      ],
+      "medium": "narrative-imaging",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "multi-output-canvas"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "10-scenes-storytelling/01-standard",
+      "category": "10-scenes-storytelling",
+      "category_name": "Scenes & Storytelling",
+      "title_en": "Standard template",
+      "kind": "text",
+      "source_file": "10-scenes-storytelling/01-standard.en.txt",
+      "visual_recipe": "visible narrative cue, emotional staging, grounded environment and intentional camera framing",
+      "compatible_purposes": [
+        "narrative-scene",
+        "lifestyle-photography"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "narrative-scene",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "optional",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "mixed"
+      ],
+      "medium": "narrative-imaging",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "10-scenes-storytelling/02-json-advanced",
+      "category": "10-scenes-storytelling",
+      "category_name": "Scenes & Storytelling",
+      "title_en": "JSON advanced template (recommended for agents)",
+      "kind": "json",
+      "source_file": "10-scenes-storytelling/02-json-advanced.en.txt",
+      "visual_recipe": "visible narrative cue, emotional staging, grounded environment and intentional camera framing",
+      "compatible_purposes": [
+        "narrative-scene",
+        "lifestyle-photography"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "historical-cultural",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "optional",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "mixed"
+      ],
+      "medium": "historical-imaging",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "11-history-classical/01-standard",
+      "category": "11-history-classical",
+      "category_name": "History & Classical Themes",
+      "title_en": "Standard template",
+      "kind": "text",
+      "source_file": "11-history-classical/01-standard.en.txt",
+      "visual_recipe": "period-aware materials, clothing and cultural composition with coherent atmosphere",
+      "compatible_purposes": [
+        "historical-cultural",
+        "narrative-scene"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "historical-cultural",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "optional",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person"
+      ],
+      "medium": "historical-imaging",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "11-history-classical/02-json-advanced",
+      "category": "11-history-classical",
+      "category_name": "History & Classical Themes",
+      "title_en": "JSON advanced template (recommended for agents)",
+      "kind": "json",
+      "source_file": "11-history-classical/02-json-advanced.en.txt",
+      "visual_recipe": "period-aware materials, clothing and cultural composition with coherent atmosphere",
+      "compatible_purposes": [
+        "historical-cultural",
+        "narrative-scene"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "publishing-layout",
+      "secondary_purposes": [],
+      "output_topology": "multi-panel",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "project"
+      ],
+      "medium": "publishing-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "multi-output-canvas",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "12-documents-publishing/01-standard",
+      "category": "12-documents-publishing",
+      "category_name": "Documents & Publishing",
+      "title_en": "Standard template",
+      "kind": "text",
+      "source_file": "12-documents-publishing/01-standard.en.txt",
+      "visual_recipe": "publication grid, readable hierarchy, aligned figures and restrained page rhythm",
+      "compatible_purposes": [
+        "publishing-layout"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "publishing-layout",
+      "secondary_purposes": [],
+      "output_topology": "multi-panel",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "person",
+        "project"
+      ],
+      "medium": "publishing-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "multi-output-canvas",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "12-documents-publishing/02-json-advanced",
+      "category": "12-documents-publishing",
+      "category_name": "Documents & Publishing",
+      "title_en": "JSON advanced template (recommended for agents)",
+      "kind": "json",
+      "source_file": "12-documents-publishing/02-json-advanced.en.txt",
+      "visual_recipe": "publication grid, readable hierarchy, aligned figures and restrained page rhythm",
+      "compatible_purposes": [
+        "publishing-layout"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "publishing-layout",
+      "secondary_purposes": [],
+      "output_topology": "multi-panel",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "product",
+        "project"
+      ],
+      "medium": "publishing-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "multi-output-canvas",
+        "text-rendering",
+        "brand-literal"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "12-documents-publishing/03-corporate-brochure-system",
+      "category": "12-documents-publishing",
+      "category_name": "Documents & Publishing",
+      "title_en": "Corporate brochure system template",
+      "kind": "text",
+      "source_file": "12-documents-publishing/03-corporate-brochure-system.en.txt",
+      "visual_recipe": "publication grid, readable hierarchy, aligned figures and restrained page rhythm",
+      "compatible_purposes": [
+        "publishing-layout"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "concept-development",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "project"
+      ],
+      "medium": "mixed-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "13-other-use-cases/01-standard",
+      "category": "13-other-use-cases",
+      "category_name": "Other Use Cases",
+      "title_en": "Standard template",
+      "kind": "text",
+      "source_file": "13-other-use-cases/01-standard.en.txt",
+      "visual_recipe": "clear artifact definition, controlled technical presentation and visible component relationships",
+      "compatible_purposes": [
+        "concept-development"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "concept-development",
+      "secondary_purposes": [],
+      "output_topology": "multi-panel",
+      "text_policy": "required",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "product",
+        "project"
+      ],
+      "medium": "mixed-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals",
+        "multi-output-canvas",
+        "text-rendering"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "13-other-use-cases/02-concept-product-rd-breakdown",
+      "category": "13-other-use-cases",
+      "category_name": "Other Use Cases",
+      "title_en": "Concept product R&D breakdown board template",
+      "kind": "text",
+      "source_file": "13-other-use-cases/02-concept-product-rd-breakdown.en.txt",
+      "visual_recipe": "clear artifact definition, controlled technical presentation and visible component relationships",
+      "compatible_purposes": [
+        "concept-development"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    },
+    {
+      "primary_purpose": "concept-development",
+      "secondary_purposes": [],
+      "output_topology": "single-frame",
+      "text_policy": "optional",
+      "reference_mode": "optional",
+      "target_kinds": [
+        "project"
+      ],
+      "medium": "mixed-design",
+      "prompt_language": "en",
+      "risk_flags": [
+        "example-literals"
+      ],
+      "execution_role": "inspiration-only",
+      "id": "13-other-use-cases/03-json-advanced",
+      "category": "13-other-use-cases",
+      "category_name": "Other Use Cases",
+      "title_en": "JSON advanced template (recommended for agents)",
+      "kind": "json",
+      "source_file": "13-other-use-cases/03-json-advanced.en.txt",
+      "visual_recipe": "clear artifact definition, controlled technical presentation and visible component relationships",
+      "compatible_purposes": [
+        "concept-development"
+      ],
+      "adaptation_mode": "semantic-recompose",
+      "raw_template_allowed_in_provider_prompt": false
+    }
+  ]
+}

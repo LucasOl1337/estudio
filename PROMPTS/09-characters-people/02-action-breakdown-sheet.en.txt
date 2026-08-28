@@ -1,0 +1,12 @@
+Generate an action-breakdown reference sheet for [character / person].
+Style: [B&W line / 3D grayscale / comic storyboard / teaching plate], clean background, technical reference feel.
+Layout: 4×4 grid, 16 equal panels, thin dividers, number 1–16 top-left of each cell.
+Character consistency: same character in every panel — same face, costume, proportions, hairstyle.
+Per-cell structure:
+- Top: action title
+- Center: full-body pose
+- Bottom: 3–4 lines of action notes
+- Overlay: direction arrows, rotation arrows, or motion paths
+Action sequence: [full step list from base stance to end pose]
+Constraints: no complex backgrounds, no extra characters, no noisy color, no identity drift.
+Output: clear sheet usable for animation / dance / game action reference.

@@ -1,0 +1,14 @@
+{
+  "id": "06-architecture-space/01-standard",
+  "category": "06-architecture-space",
+  "title_zh": "常规模板",
+  "title_en": "Standard template",
+  "kind": "text",
+  "chars_zh": 125,
+  "chars_en": 375,
+  "files": {
+    "zh": "01-standard.zh.txt",
+    "en": "01-standard.en.txt"
+  },
+  "queue_ready": true
+}

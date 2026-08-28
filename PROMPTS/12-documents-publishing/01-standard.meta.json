@@ -1,0 +1,14 @@
+{
+  "id": "12-documents-publishing/01-standard",
+  "category": "12-documents-publishing",
+  "title_zh": "常规模板",
+  "title_en": "Standard template",
+  "kind": "text",
+  "chars_zh": 112,
+  "chars_en": 254,
+  "files": {
+    "zh": "01-standard.zh.txt",
+    "en": "01-standard.en.txt"
+  },
+  "queue_ready": true
+}

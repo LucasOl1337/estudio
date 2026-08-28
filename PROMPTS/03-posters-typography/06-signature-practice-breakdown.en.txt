@@ -1,0 +1,23 @@
+Based on the input [signature image / signature style], generate a signature practice breakdown sheet.
+
+Goal:
+Help the user practice this signature with a black pen on paper by breaking every stroke path, order, force, and rhythm.
+
+Frame structure:
+- Vertical teaching plate or horizontal practice board
+- Top: final signature sample
+- Middle: 8–12 steps decomposing key strokes
+- Each step shows current stroke, motion-direction arrows, entry point, pause point, exit point
+- Bottom: full continuous path plus 3–5 practice tips
+
+Breakdown rules:
+- Every stroke must map to the original signature
+- Mark stroke order with clear numbers
+- Show pressure changes (thick/thin) and speed cues
+- Keep teaching-notebook feel: white paper, black handwriting lines, red or blue teaching arrows, clear numbering
+
+Visual style:
+White paper background, black handwriting lines, red or blue teaching arrows, clear numbering, workbook texture.
+
+Avoid:
+Do not only show the finished signature; do not skip key strokes; do not turn steps into random doodles; do not generate unrelated calligraphy copybooks.

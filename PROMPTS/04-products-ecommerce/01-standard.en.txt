@@ -1,0 +1,5 @@
+Generate an e-commerce hero image for [product name], selling points [point1], [point2].
+Show material [material], scene [scene], lighting [lighting].
+Layout blocks: hero product, benefit labels, supporting props (only if they help recognition).
+Constraints: no random props that weaken product ID; packaging text accurate and minimal.
+Output: commercial product visual for detail page / ad.

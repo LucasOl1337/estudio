@@ -1,0 +1,5 @@
+Design a [event / product / film] poster themed [theme word].
+Hero visual: [main element], headline: [title], subhead: [subtitle].
+Layout: [centered / left-aligned / diagonal], style: [retro / futuristic / minimal].
+Colors: [primary + secondary], mood: [emotion keywords].
+Output: high-resolution poster ready for social distribution.

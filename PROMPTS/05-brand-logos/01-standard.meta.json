@@ -1,0 +1,14 @@
+{
+  "id": "05-brand-logos/01-standard",
+  "category": "05-brand-logos",
+  "title_zh": "常规模板",
+  "title_en": "Standard template",
+  "kind": "text",
+  "chars_zh": 126,
+  "chars_en": 214,
+  "files": {
+    "zh": "01-standard.zh.txt",
+    "en": "01-standard.en.txt"
+  },
+  "queue_ready": true
+}

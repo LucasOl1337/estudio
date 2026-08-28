@@ -1,0 +1,14 @@
+/target
+**/target
+**/__pycache__/
+*.pyc
+.DS_Store
+*.log
+ALVOS/*/PRODUCOES/
+ALVOS/*/PESSOA_*/
+ALVOS/*/*.jpg
+ALVOS/*/*.png
+ALVOS/*/*.jpeg
+ALVOS/*/*.webp
+.idea/
+.vscode/

@@ -1,0 +1,14 @@
+{
+  "id": "03-posters-typography/05-single-signature-extract",
+  "category": "03-posters-typography",
+  "title_zh": "单款签名提取模板",
+  "title_en": "Single signature extraction template",
+  "kind": "text",
+  "chars_zh": 239,
+  "chars_en": 618,
+  "files": {
+    "zh": "05-single-signature-extract.zh.txt",
+    "en": "05-single-signature-extract.en.txt"
+  },
+  "queue_ready": true
+}

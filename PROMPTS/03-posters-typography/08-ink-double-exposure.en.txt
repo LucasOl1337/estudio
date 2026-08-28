@@ -1,0 +1,10 @@
+Generate an ink double-exposure portrait poster of [person / character / brand founder / athlete].
+Aspect: 9:16 vertical, premium film-poster composition.
+Subject structure:
+- Upper zone: enlarged head, facial contour, or half-body silhouette as the strongest identity anchor
+- Mid-lower zone: full or half body of the same person, pose [standing / action / gaze to camera]
+- Inside the silhouette: fuse [key scene], [symbol], [narrative beat], [environment texture] into a double-exposure narrative
+Visual links: mist, ink bleed, flying-white edges, negative space connecting the two layers
+Mood: poetic, quiet, museum-quality; text minimal or none unless required
+Constraints: no cheap fantasy collage, no overloaded scenery; face must stay readable
+Output: single finished premium poster

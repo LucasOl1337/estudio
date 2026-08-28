@@ -1,0 +1,14 @@
+{
+  "id": "06-architecture-space/03-pitfalls",
+  "category": "06-architecture-space",
+  "title_zh": "避坑指南",
+  "title_en": "Pitfalls guide",
+  "kind": "pitfalls",
+  "chars_zh": 111,
+  "chars_en": 200,
+  "files": {
+    "zh": "03-pitfalls.zh.txt",
+    "en": "03-pitfalls.en.txt"
+  },
+  "queue_ready": false
+}

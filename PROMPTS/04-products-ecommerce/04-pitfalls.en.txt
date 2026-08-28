@@ -1,0 +1,3 @@
+- Separate hero product, benefit labels, and props; props must not steal recognition.
+- Constrain packaging claims and text accuracy.
+- Beauty reports: avoid medicalization; keep labels scannable.

@@ -1,0 +1,14 @@
+{
+  "id": "03-posters-typography/02-sports-campaign",
+  "category": "03-posters-typography",
+  "title_zh": "运动商业 Campaign 模板",
+  "title_en": "Sports campaign poster template",
+  "kind": "text",
+  "chars_zh": 270,
+  "chars_en": 689,
+  "files": {
+    "zh": "02-sports-campaign.zh.txt",
+    "en": "02-sports-campaign.en.txt"
+  },
+  "queue_ready": true
+}

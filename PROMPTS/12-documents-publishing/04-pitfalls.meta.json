@@ -1,0 +1,14 @@
+{
+  "id": "12-documents-publishing/04-pitfalls",
+  "category": "12-documents-publishing",
+  "title_zh": "避坑指南",
+  "title_en": "Pitfalls guide",
+  "kind": "pitfalls",
+  "chars_zh": 182,
+  "chars_en": 132,
+  "files": {
+    "zh": "04-pitfalls.zh.txt",
+    "en": "04-pitfalls.en.txt"
+  },
+  "queue_ready": false
+}

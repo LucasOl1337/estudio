@@ -1,0 +1,14 @@
+{
+  "id": "08-illustration-art/01-standard",
+  "category": "08-illustration-art",
+  "title_zh": "常规模板",
+  "title_en": "Standard template",
+  "kind": "text",
+  "chars_zh": 118,
+  "chars_en": 351,
+  "files": {
+    "zh": "01-standard.zh.txt",
+    "en": "01-standard.en.txt"
+  },
+  "queue_ready": true
+}

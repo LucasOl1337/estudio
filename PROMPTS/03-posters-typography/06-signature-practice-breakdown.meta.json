@@ -1,0 +1,14 @@
+{
+  "id": "03-posters-typography/06-signature-practice-breakdown",
+  "category": "03-posters-typography",
+  "title_zh": "签名练习拆解图模板",
+  "title_en": "Signature practice breakdown template",
+  "kind": "text",
+  "chars_zh": 362,
+  "chars_en": 1091,
+  "files": {
+    "zh": "06-signature-practice-breakdown.zh.txt",
+    "en": "06-signature-practice-breakdown.en.txt"
+  },
+  "queue_ready": true
+}

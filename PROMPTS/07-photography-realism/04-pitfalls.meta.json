@@ -1,0 +1,14 @@
+{
+  "id": "07-photography-realism/04-pitfalls",
+  "category": "07-photography-realism",
+  "title_zh": "避坑指南",
+  "title_en": "Pitfalls guide",
+  "kind": "pitfalls",
+  "chars_zh": 190,
+  "chars_en": 282,
+  "files": {
+    "zh": "04-pitfalls.zh.txt",
+    "en": "04-pitfalls.en.txt"
+  },
+  "queue_ready": false
+}

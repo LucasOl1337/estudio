@@ -1,0 +1,14 @@
+{
+  "id": "02-charts-infographics/04-pitfalls",
+  "category": "02-charts-infographics",
+  "title_zh": "避坑指南",
+  "title_en": "Pitfalls guide",
+  "kind": "pitfalls",
+  "chars_zh": 95,
+  "chars_en": 203,
+  "files": {
+    "zh": "04-pitfalls.zh.txt",
+    "en": "04-pitfalls.en.txt"
+  },
+  "queue_ready": false
+}

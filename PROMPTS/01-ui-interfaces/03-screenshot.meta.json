@@ -1,0 +1,14 @@
+{
+  "id": "01-ui-interfaces/03-screenshot",
+  "category": "01-ui-interfaces",
+  "title_zh": "截图生成模板",
+  "title_en": "Screenshot generation template",
+  "kind": "text",
+  "chars_zh": 276,
+  "chars_en": 544,
+  "files": {
+    "zh": "03-screenshot.zh.txt",
+    "en": "03-screenshot.en.txt"
+  },
+  "queue_ready": true
+}

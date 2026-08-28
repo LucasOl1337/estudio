@@ -1,0 +1,5 @@
+- Decompose facial features instead of "beautiful person".
+- Name fabric/materials to ground the costume.
+- Action sheets must lock grid count, numbering, and per-cell structure.
+- Toys: lock identity anchors before chibi proportions and materials.
+- Long action sequences drift identity — restate same face/costume/proportion before the step list.

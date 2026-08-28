@@ -1,0 +1,8 @@
+Convert the input photo into a premium 3D collectible toy.
+Identity lock: keep original face identity, main hairstyle, expression temperament, and costume recognition points.
+Proportion: chibi/large-head designer-toy proportions, slightly exaggerated features, still premium.
+Materials: matte vinyl / resin / collectible figure finish, detailed skin and costume materials.
+Light & BG: soft studio light, clean background [black / white / brand color], subject centered, crisp silhouette.
+Look: ultra-sharp, real material response, 8K render, premium designer-toy aesthetic.
+Constraints: do not change identity, no cheap plastic, no multi-character, no complex BG, no text watermark.
+Output: one complete premium collectible figure render.

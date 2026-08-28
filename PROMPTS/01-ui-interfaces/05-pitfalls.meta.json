@@ -1,0 +1,14 @@
+{
+  "id": "01-ui-interfaces/05-pitfalls",
+  "category": "01-ui-interfaces",
+  "title_zh": "避坑指南",
+  "title_en": "Pitfalls guide",
+  "kind": "pitfalls",
+  "chars_zh": 315,
+  "chars_en": 465,
+  "files": {
+    "zh": "05-pitfalls.zh.txt",
+    "en": "05-pitfalls.en.txt"
+  },
+  "queue_ready": false
+}

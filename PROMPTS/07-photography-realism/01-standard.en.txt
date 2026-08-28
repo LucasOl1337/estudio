@@ -1,0 +1,5 @@
+Shoot subject: [person / object / street scene], location [place].
+Camera style: [35mm / 85mm], [shallow / deep] depth of field, [documentary / cinematic].
+Light: [natural / neon night / backlight], mood: [emotion words].
+Detail: [skin texture / material / grain].
+Output: hyper-realistic photography-style image.

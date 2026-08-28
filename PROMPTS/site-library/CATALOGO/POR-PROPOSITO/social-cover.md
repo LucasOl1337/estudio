@@ -1,0 +1,41 @@
+# social-cover
+
+37 cases. [Índice](../00-INDICE.md)
+
+- [case-2](../01-ui-interfaces/INDEX.md#case-2) — Print de interface de rede social — UI & Interfaces
+- [case-41](../09-characters-people/INDEX.md#case-41) — Criação em estilo de arte ilustrada — Characters & People
+- [case-92](../01-ui-interfaces/INDEX.md#case-92) — Interface de capa de vídeo — UI & Interfaces
+- [case-93](../01-ui-interfaces/INDEX.md#case-93) — Criação em estilo de arte ilustrada — UI & Interfaces
+- [case-94](../01-ui-interfaces/INDEX.md#case-94) — Imagem em estilo de arte pictórica — UI & Interfaces
+- [case-95](../01-ui-interfaces/INDEX.md#case-95) — Identidade visual da marca — UI & Interfaces
+- [case-96](../01-ui-interfaces/INDEX.md#case-96) — Design de diagramação de pôster temático — UI & Interfaces
+- [case-97](../03-posters-typography/INDEX.md#case-97) — Cena de aplicação integrada — Posters & Typography
+- [case-98](../03-posters-typography/INDEX.md#case-98) — Design de diagramação de pôster temático — Posters & Typography
+- [case-99](../03-posters-typography/INDEX.md#case-99) — Diagrama de design de interação de interface — Posters & Typography
+- [case-100](../03-posters-typography/INDEX.md#case-100) — Design de diagramação de pôster temático — Posters & Typography
+- [case-101](../03-posters-typography/INDEX.md#case-101) — Diagrama de design de interação de interface — Posters & Typography
+- [case-105](../03-posters-typography/INDEX.md#case-105) — Ilustração de criação anime — Posters & Typography
+- [case-106](../13-other-use-cases/INDEX.md#case-106) — Mockup de interface de aplicativo — Other Use Cases
+- [case-110](../01-ui-interfaces/INDEX.md#case-110) — Interface de capa de vídeo — UI & Interfaces
+- [case-111](../01-ui-interfaces/INDEX.md#case-111) — Interface de capa de vídeo — UI & Interfaces
+- [case-131](../01-ui-interfaces/INDEX.md#case-131) — Diagrama de design de interação de interface — UI & Interfaces
+- [case-176](../11-history-classical/INDEX.md#case-176) — Moments de Su Shi no primeiro dia de exílio — History & Classical Themes
+- [case-235](../03-posters-typography/INDEX.md#case-235) — Grade 3x3 de guia relaxante para dormir — Posters & Typography
+- [case-249](../01-ui-interfaces/INDEX.md#case-249) — Moça com placa agradecendo o super foguete do apoiador — UI & Interfaces
+- [case-259](../01-ui-interfaces/INDEX.md#case-259) — A verdade do empréstimo online por trás da garota impecável — UI & Interfaces
+- [case-260](../01-ui-interfaces/INDEX.md#case-260) — Print de interface de rede social — UI & Interfaces
+- [case-275](../03-posters-typography/INDEX.md#case-275) — Pôster de filme em montagem estratificada — Posters & Typography
+- [case-287](../01-ui-interfaces/INDEX.md#case-287) — Página Xiaohongshu de Mai Shiranui — UI & Interfaces
+- [case-323](../13-other-use-cases/INDEX.md#case-323) — Mockup de interface de aplicativo — Other Use Cases
+- [case-366](../07-photography-realism/INDEX.md#case-366) — Foto realista de café sobreposta a rabisco 2D — Photography & Realism
+- [case-371](../09-characters-people/INDEX.md#case-371) — Scrapbook de foto real e mini clone — Characters & People
+- [case-381](../06-architecture-space/INDEX.md#case-381) — Prancha de referência de apartamento anos 90 — Architecture & Spaces
+- [case-384](../09-characters-people/INDEX.md#case-384) — Colagem fashion de trajes tradicionais de dez países — Characters & People
+- [case-402](../01-ui-interfaces/INDEX.md#case-402) — Cartão de perfil 3D Xiaohongshu — UI & Interfaces
+- [case-403](../01-ui-interfaces/INDEX.md#case-403) — Garota 3D quebrando a tela Xiaohongshu — UI & Interfaces
+- [case-404](../01-ui-interfaces/INDEX.md#case-404) — Anúncio comercial de luxo atravessando a tela da rede social — UI & Interfaces
+- [case-440](../01-ui-interfaces/INDEX.md#case-440) — Tela de trabalho FaceTime fotografada no celular — UI & Interfaces
+- [case-454](../04-products-ecommerce/INDEX.md#case-454) — Pôster publicitário de chips de viagem e gastronomia — Products & E-commerce
+- [case-461](../08-illustration-art/INDEX.md#case-461) — Colagem em recorte de papel de viagem em família — Illustration & Art
+- [case-477](../10-scenes-storytelling/INDEX.md#case-477) — Mesa vista de cima criativa estilo Instagram — Scenes & Storytelling
+- [case-493](../10-scenes-storytelling/INDEX.md#case-493) — Capa de vídeo de viagem a Tóquio em 13 quadros — Scenes & Storytelling

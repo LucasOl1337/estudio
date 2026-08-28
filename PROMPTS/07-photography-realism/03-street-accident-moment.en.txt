@@ -1,0 +1,8 @@
+Generate a vertical phone documentary photo of [accident / everyday moment] on [street / outdoor place].
+Subject: [object / person action / scene traces], real material states e.g. [liquid spread / scattered ice / crumpled paper / dust].
+Environment: [ground material / walls / street elements], keep natural clutter and life traces.
+Light: [harsh noon / overcast / night street lamps], shadows match real direction; may include [person shadow / sign shadow / tree shadow].
+Lens: handheld phone angle, slight high or low angle, natural composition like a candid capture.
+Look: raw unedited photo, natural color, real texture, high detail.
+Negatives: no illustration, anime, CGI, studio light, over-clean, over-composed, fake liquids, floating objects, brand text, watermarks, poster design feel.
+Output: one believable everyday documentary photo.

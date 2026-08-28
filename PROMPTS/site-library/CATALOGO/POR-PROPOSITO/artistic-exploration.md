@@ -1,0 +1,52 @@
+# artistic-exploration
+
+48 cases. [Índice](../00-INDICE.md)
+
+- [case-6](../08-illustration-art/INDEX.md#case-6) — Criação de arte ilustrada — Illustration & Art
+- [case-22](../08-illustration-art/INDEX.md#case-22) — Criação em estilo de arte ilustrada — Illustration & Art
+- [case-30](../08-illustration-art/INDEX.md#case-30) — Imagem em estilo de fotografia realista — Illustration & Art
+- [case-32](../08-illustration-art/INDEX.md#case-32) — Criação de arte ilustrada — Illustration & Art
+- [case-34](../08-illustration-art/INDEX.md#case-34) — Criação de arte ilustrada — Illustration & Art
+- [case-37](../08-illustration-art/INDEX.md#case-37) — Cena de aplicação integrada — Illustration & Art
+- [case-38](../08-illustration-art/INDEX.md#case-38) — Cena de aplicação integrada — Illustration & Art
+- [case-39](../08-illustration-art/INDEX.md#case-39) — Cena de aplicação integrada — Illustration & Art
+- [case-40](../08-illustration-art/INDEX.md#case-40) — Cena de aplicação integrada — Illustration & Art
+- [case-43](../08-illustration-art/INDEX.md#case-43) — Criação de arte ilustrada — Illustration & Art
+- [case-52](../08-illustration-art/INDEX.md#case-52) — Imagem em estilo de fotografia realista — Illustration & Art
+- [case-112](../08-illustration-art/INDEX.md#case-112) — Design de infográfico visual — Illustration & Art
+- [case-113](../08-illustration-art/INDEX.md#case-113) — Ilustração de criação anime — Illustration & Art
+- [case-114](../08-illustration-art/INDEX.md#case-114) — Criação de arte ilustrada — Illustration & Art
+- [case-115](../08-illustration-art/INDEX.md#case-115) — Identidade visual da marca — Illustration & Art
+- [case-116](../08-illustration-art/INDEX.md#case-116) — Design de diagramação de pôster temático — Illustration & Art
+- [case-117](../08-illustration-art/INDEX.md#case-117) — Design de diagramação de pôster temático — Illustration & Art
+- [case-120](../08-illustration-art/INDEX.md#case-120) — Cena de espaço arquitetônico — Illustration & Art
+- [case-121](../08-illustration-art/INDEX.md#case-121) — Cena de espaço arquitetônico — Illustration & Art
+- [case-125](../08-illustration-art/INDEX.md#case-125) — Design de vitrine de produto e-commerce — Illustration & Art
+- [case-127](../08-illustration-art/INDEX.md#case-127) — Cena de espaço arquitetônico — Illustration & Art
+- [case-129](../08-illustration-art/INDEX.md#case-129) — Imagem em estilo de arte pictórica — Illustration & Art
+- [case-193](../08-illustration-art/INDEX.md#case-193) — Guanyin das mil mãos encarnada como trabalhadora — Illustration & Art
+- [case-231](../08-illustration-art/INDEX.md#case-231) — Tipografia artística em cursiva selvagem ao vento — Illustration & Art
+- [case-233](../08-illustration-art/INDEX.md#case-233) — Óleo bem-humorado da Mona Lisa tomando cola — Illustration & Art
+- [case-246](../08-illustration-art/INDEX.md#case-246) — Xangai em traço de line art preto e branco — Illustration & Art
+- [case-281](../08-illustration-art/INDEX.md#case-281) — Mandala cyberpunk de ficção científica — Illustration & Art
+- [case-299](../08-illustration-art/INDEX.md#case-299) — Rascunho à mão de graffiti minimalista com muito branco — Illustration & Art
+- [case-346](../08-illustration-art/INDEX.md#case-346) — Bordado em relevo de passarinho no galho florido — Illustration & Art
+- [case-356](../08-illustration-art/INDEX.md#case-356) — Campaign surreal de rua sobre pensar demais — Illustration & Art
+- [case-374](../08-illustration-art/INDEX.md#case-374) — Redesenho em linhas rabiscadas coloridas de cachorrinho — Illustration & Art
+- [case-405](../08-illustration-art/INDEX.md#case-405) — Redesenho fofo de foto em estilo papercraft — Illustration & Art
+- [case-409](../08-illustration-art/INDEX.md#case-409) — Redesenho tosco estilo MS Paint — Illustration & Art
+- [case-410](../08-illustration-art/INDEX.md#case-410) — Redesenho do sujeito em anime exagerado — Illustration & Art
+- [case-423](../08-illustration-art/INDEX.md#case-423) — Ilustração de busto em rabisco à mão estilo japonês — Illustration & Art
+- [case-430](../08-illustration-art/INDEX.md#case-430) — Ilustração editorial de moda em lápis — Illustration & Art
+- [case-433](../08-illustration-art/INDEX.md#case-433) — Ilustração de viagem em aquarela de cidade coreana — Illustration & Art
+- [case-435](../08-illustration-art/INDEX.md#case-435) — Ilustração de casal em recorte de papel em camadas — Illustration & Art
+- [case-442](../08-illustration-art/INDEX.md#case-442) — Ilustração de salão aconchegante — Illustration & Art
+- [case-445](../08-illustration-art/INDEX.md#case-445) — Cartão-postal em tinta da foto de viagem — Illustration & Art
+- [case-452](../08-illustration-art/INDEX.md#case-452) — Ilustração infantil à mão em conto de fadas minimalista — Illustration & Art
+- [case-458](../08-illustration-art/INDEX.md#case-458) — Ilustração de moda outonal de Paris — Illustration & Art
+- [case-476](../08-illustration-art/INDEX.md#case-476) — Garota em miniatura no latte de bom dia — Illustration & Art
+- [case-479](../08-illustration-art/INDEX.md#case-479) — Recriação em colagem de papel de revista — Illustration & Art
+- [case-495](../08-illustration-art/INDEX.md#case-495) — Ilustração de livro de histórias nas ruas de Paris — Illustration & Art
+- [case-498](../08-illustration-art/INDEX.md#case-498) — Clone 3D sobre fundo a lápis — Illustration & Art
+- [case-513](../08-illustration-art/INDEX.md#case-513) — Ilustração de caderno de viagem com acento monocromático — Illustration & Art
+- [case-520](../08-illustration-art/INDEX.md#case-520) — Gráfico de T-shirt de astronauta lunar — Illustration & Art

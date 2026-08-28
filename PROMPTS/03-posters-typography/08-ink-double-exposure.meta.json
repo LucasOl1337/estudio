@@ -1,0 +1,14 @@
+{
+  "id": "03-posters-typography/08-ink-double-exposure",
+  "category": "03-posters-typography",
+  "title_zh": "水墨双重曝光人物海报模板",
+  "title_en": "Ink double-exposure portrait poster template",
+  "kind": "text",
+  "chars_zh": 405,
+  "chars_en": 790,
+  "files": {
+    "zh": "08-ink-double-exposure.zh.txt",
+    "en": "08-ink-double-exposure.en.txt"
+  },
+  "queue_ready": true
+}

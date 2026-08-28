@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "purpose": "profile-portrait",
+  "case_ids": [
+    472,
+    275,
+    119,
+    27
+  ],
+  "template_ids": [
+    "07-photography-realism/01-standard",
+    "07-photography-realism/02-json-advanced",
+    "07-photography-realism/03-street-accident-moment"
+  ]
+}

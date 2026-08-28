@@ -1,0 +1,5 @@
+Generate a [platform, e.g. iOS / Android / Web] UI screen for a [product type].
+Core features: [feature A], [feature B], [feature C].
+Visual style: [minimal / tech / skeuomorphic], primary color [color], accent [color].
+Layout: [top nav / two-column / card feed], clear information hierarchy, generous whitespace.
+Output: high-fidelity UI screenshot, readable text, aspect ratio [9:16 / 16:9].

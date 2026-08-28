@@ -1,0 +1,2 @@
+- Do not write style alone without composition and subject.
+- When using references, lock face / hair / costume anchors explicitly.

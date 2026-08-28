@@ -1,0 +1,5 @@
+Generate a design visualization of [space type], functional purpose [use].
+Viewpoint: [eye-level / aerial / section], scale, materials [materials], lighting [lighting].
+For maps: landmarks, labels, border treatment, accuracy level.
+Constraints: believable perspective unless explicitly conceptual; lock label language.
+Output: architecture / interior / spatial concept image.

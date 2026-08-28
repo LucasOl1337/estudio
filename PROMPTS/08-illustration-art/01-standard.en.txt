@@ -1,0 +1,5 @@
+Create an illustration on [subject], protagonist [character / subject].
+Composition, palette, brush/material [watercolor / ink / digital paint], mood, finish level.
+If using a reference: state which identity anchors to preserve.
+Constraints: not style-only; composition required; lock character identity when referenced.
+Output: finished illustration.
