@@ -1,3 +1,4 @@
+mod instance;
 mod library;
 mod paths;
 mod run;
@@ -11,46 +12,139 @@ use axum::response::{IntoResponse, Response};
 use axum::routing::{get, post};
 use axum::{Json, Router};
 use futures_util::StreamExt;
+use instance::{PREFERRED_PORT, WINDOW_TITLE};
 use library::Library;
 use paths::{alvos_dir, detect_root, factory_script, resolve_python};
 use run::{start_run, stop_run, RunHandle, RunRequest};
 use serde_json::json;
 use std::convert::Infallible;
 use std::path::PathBuf;
+use std::sync::mpsc;
 use std::sync::Arc;
-use targets::{create_target, gallery, list_targets, open_in_browser, save_photos, write_gallery_html};
+use std::time::Duration;
+use tao::event_loop::EventLoopProxy;
+use targets::{
+    create_target, gallery, list_targets, open_in_browser, save_photos, write_gallery_html,
+};
 use tokio::net::TcpListener;
 use tokio_stream::wrappers::BroadcastStream;
 use tower_http::cors::CorsLayer;
+
+#[derive(Clone, Copy, Debug)]
+enum AppEvent {
+    Focus,
+}
 
 struct AppState {
     root: PathBuf,
     library: Library,
     run: Arc<RunHandle>,
     static_dir: PathBuf,
+    port: u16,
+    focus: EventLoopProxy<AppEvent>,
 }
 
 fn main() {
+    if instance::hand_off_to_existing() {
+        return;
+    }
+
+    let lock = match claim_instance_lock() {
+        Some(lock) => lock,
+        None => return,
+    };
+
     let root = if let Ok(from_env) = std::env::var("IMAGEGEN_ROOT") {
         PathBuf::from(from_env)
     } else {
         detect_root()
     };
     let shown_root = root.clone();
+
+    let event_loop = tao::event_loop::EventLoopBuilder::<AppEvent>::with_user_event().build();
+    let proxy = event_loop.create_proxy();
+    let (port_tx, port_rx) = mpsc::channel();
     std::thread::spawn(move || {
         let rt = tokio::runtime::Builder::new_multi_thread()
             .enable_all()
             .build()
             .expect("tokio");
-        rt.block_on(serve(root));
+        rt.block_on(serve(root, proxy, port_tx));
     });
-    wait_for_server();
+
+    let port = match port_rx.recv_timeout(Duration::from_secs(8)) {
+        Ok(Ok(port)) => port,
+        Ok(Err(_)) | Err(_) => {
+            fatal_open("O Estúdio não conseguiu abrir. Tente de novo.");
+        }
+    };
+    if let Err(err) = lock.write_port(port) {
+        eprintln!("aviso: não gravou o ficheiro de descoberta: {err}");
+    }
+    if !wait_for_server(port) {
+        fatal_open("O Estúdio não conseguiu abrir. Tente de novo.");
+    }
     println!("Estúdio (Rust) — janela nativa");
     println!("repo {}", shown_root.display());
-    open_window();
+    if port != PREFERRED_PORT {
+        println!("porta local 127.0.0.1:{port} (7420 estava ocupada)");
+    }
+    open_window(port, event_loop);
 }
 
-async fn serve(root: PathBuf) {
+fn claim_instance_lock() -> Option<instance::InstanceLock> {
+    if let Some(lock) = instance::InstanceLock::claim() {
+        return Some(lock);
+    }
+    for _ in 0..40 {
+        std::thread::sleep(Duration::from_millis(80));
+        if instance::hand_off_to_existing() {
+            return None;
+        }
+        if !instance::lock_holder_alive() {
+            break;
+        }
+    }
+    if instance::hand_off_to_existing() {
+        return None;
+    }
+    if instance::lock_holder_alive() {
+        let _ = instance::focus_window_by_title(WINDOW_TITLE);
+        return None;
+    }
+    instance::clear_stale_lock();
+    instance::InstanceLock::claim()
+}
+
+fn fatal_open(message: &str) -> ! {
+    instance::show_error_dialog(message);
+    std::process::exit(1);
+}
+
+async fn serve(
+    root: PathBuf,
+    proxy: EventLoopProxy<AppEvent>,
+    port_tx: mpsc::Sender<Result<u16, ()>>,
+) {
+    let (std_listener, port) = match instance::bind_loopback(PREFERRED_PORT) {
+        Ok(bound) => bound,
+        Err(_) => {
+            let _ = port_tx.send(Err(()));
+            return;
+        }
+    };
+    if std_listener.set_nonblocking(true).is_err() {
+        let _ = port_tx.send(Err(()));
+        return;
+    }
+    let listener = match TcpListener::from_std(std_listener) {
+        Ok(listener) => listener,
+        Err(_) => {
+            let _ = port_tx.send(Err(()));
+            return;
+        }
+    };
+
     let library = library::load_library(&root);
     let static_dir = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("static");
     let state = Arc::new(AppState {
@@ -58,6 +152,8 @@ async fn serve(root: PathBuf) {
         library,
         run: RunHandle::new(),
         static_dir,
+        port,
+        focus: proxy,
     });
 
     let app = Router::new()
@@ -67,6 +163,8 @@ async fn serve(root: PathBuf) {
         .route("/favicon.ico", get(favicon))
         .route("/favicon.png", get(favicon_png))
         .route("/api/meta", get(meta))
+        .route("/api/instance", get(instance_info))
+        .route("/api/focus", post(post_focus))
         .route("/api/targets", get(get_targets).post(post_target))
         .route("/api/targets/{name}/photos", post(post_photos))
         .route("/api/library", get(get_library))
@@ -82,52 +180,66 @@ async fn serve(root: PathBuf) {
         .layer(CorsLayer::permissive())
         .with_state(state);
 
-    let listener = TcpListener::bind("127.0.0.1:7420").await.expect("bind 7420");
-    axum::serve(listener, app).await.expect("serve");
-}
-
-fn wait_for_server() {
-    for _ in 0..80 {
-        if std::net::TcpStream::connect("127.0.0.1:7420").is_ok() {
-            return;
-        }
-        std::thread::sleep(std::time::Duration::from_millis(50));
+    let _ = port_tx.send(Ok(port));
+    if axum::serve(listener, app).await.is_err() {
+        // The window reports a short human error if the port never comes up.
     }
-    panic!("servidor local não subiu em 127.0.0.1:7420");
 }
 
-fn open_window() {
+fn wait_for_server(port: u16) -> bool {
+    for _ in 0..80 {
+        if std::net::TcpStream::connect(("127.0.0.1", port)).is_ok() {
+            return true;
+        }
+        std::thread::sleep(Duration::from_millis(50));
+    }
+    false
+}
+
+fn open_window(port: u16, event_loop: tao::event_loop::EventLoop<AppEvent>) {
     use tao::event::{Event, WindowEvent};
-    use tao::event_loop::{ControlFlow, EventLoop};
+    use tao::event_loop::ControlFlow;
     use tao::window::WindowBuilder;
     use wry::WebViewBuilder;
 
-    let event_loop = EventLoop::new();
     let icon = load_window_icon();
     let window = WindowBuilder::new()
-        .with_title("Estúdio — Fábrica de imagem")
+        .with_title(WINDOW_TITLE)
         .with_inner_size(tao::dpi::LogicalSize::new(1280.0, 860.0))
         .with_window_icon(icon)
         .build(&event_loop)
         .expect("janela");
     let _webview = WebViewBuilder::new()
-        .with_url("http://127.0.0.1:7420/")
+        .with_url(&format!("http://127.0.0.1:{port}/"))
         .build(&window)
         .expect("webview");
     event_loop.run(move |event, _, control_flow| {
         *control_flow = ControlFlow::Wait;
-        if let Event::WindowEvent {
-            event: WindowEvent::CloseRequested,
-            ..
-        } = event
-        {
-            *control_flow = ControlFlow::Exit;
+        match event {
+            Event::UserEvent(AppEvent::Focus) => {
+                window.set_minimized(false);
+                window.set_visible(true);
+                window.set_always_on_top(true);
+                window.set_focus();
+                window.set_always_on_top(false);
+                let _ = instance::focus_window_by_title(WINDOW_TITLE);
+            }
+            Event::WindowEvent {
+                event: WindowEvent::CloseRequested,
+                ..
+            } => {
+                *control_flow = ControlFlow::Exit;
+            }
+            _ => {}
         }
     });
 }
 
 async fn index(State(state): State<Arc<AppState>>) -> impl IntoResponse {
-    file_or_status(&state.static_dir.join("index.html"), "text/html; charset=utf-8")
+    file_or_status(
+        &state.static_dir.join("index.html"),
+        "text/html; charset=utf-8",
+    )
 }
 
 async fn css(State(state): State<Arc<AppState>>) -> impl IntoResponse {
@@ -168,6 +280,8 @@ fn file_or_status(path: &std::path::Path, mime: &'static str) -> Response {
 
 async fn meta(State(state): State<Arc<AppState>>) -> Json<serde_json::Value> {
     Json(json!({
+        "app": instance::APP_ID,
+        "port": state.port,
         "root": state.root,
         "python": resolve_python(),
         "factory": factory_script(&state.root),
@@ -175,6 +289,19 @@ async fn meta(State(state): State<Arc<AppState>>) -> Json<serde_json::Value> {
         "templates": state.library.templates.len(),
         "purposes": state.library.purposes.len(),
     }))
+}
+
+async fn instance_info(State(state): State<Arc<AppState>>) -> Json<serde_json::Value> {
+    Json(json!({
+        "app": instance::APP_ID,
+        "port": state.port,
+        "pid": std::process::id(),
+    }))
+}
+
+async fn post_focus(State(state): State<Arc<AppState>>) -> Json<serde_json::Value> {
+    let _ = state.focus.send_event(AppEvent::Focus);
+    Json(json!({ "ok": true }))
 }
 
 async fn get_targets(State(state): State<Arc<AppState>>) -> Json<serde_json::Value> {
@@ -201,7 +328,9 @@ async fn post_target(
     if !files.is_empty() {
         save_photos(&dir, files).map_err(bad)?;
     }
-    Ok(Json(json!({ "ok": true, "name": dir.file_name().unwrap().to_string_lossy() })))
+    Ok(Json(
+        json!({ "ok": true, "name": dir.file_name().unwrap().to_string_lossy() }),
+    ))
 }
 
 async fn post_photos(
@@ -230,10 +359,7 @@ async fn get_library(State(state): State<Arc<AppState>>) -> Json<Library> {
     Json(state.library.clone())
 }
 
-async fn thumb(
-    State(state): State<Arc<AppState>>,
-    Path(id): Path<i64>,
-) -> Response {
+async fn thumb(State(state): State<Arc<AppState>>, Path(id): Path<i64>) -> Response {
     let path = state
         .root
         .join("vendor/awesome-gpt-image-2/data/images")

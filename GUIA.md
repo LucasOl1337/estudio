@@ -23,6 +23,9 @@ cargo run
 A janela "Estúdio — Fábrica de imagem" abre. Não uses o browser
 apontando para localhost: isso é o motor por baixo, a cara é a janela.
 
+Se a porta 7420 já estiver ocupada, o Estúdio abre na mesma. Uma
+segunda abertura só traz a janela que já existe para a frente.
+
 Para sair, fecha a janela. Isso mata o processo.
 
 ## 3. Primeira pessoa
@@ -98,3 +101,7 @@ agora ignora o que não é JPEG/PNG de verdade.
 
 **Janela abre e a lista está vazia.** Estás fora da raiz do repo.
 Roda o `cargo run` de `apps/factory-studio` com o clone completo.
+
+**Porta 7420 ocupada.** Não precisas de matar processo nenhum. O Estúdio
+escolhe outra porta local sozinho. Se ele já estiver aberto, a segunda
+abertura só foca a janela existente.
