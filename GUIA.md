@@ -10,8 +10,10 @@ Passo a passo para gerar a primeira leva. Windows.
 - [9Router](https://github.com) local autenticado no Grok e/ou no Codex.
   Sem isso a janela sobe, o disparo falha na hora de gerar.
 
-Clona o repo e entra nele. A raiz precisa ter `ALVOS/`, `PROMPTS/` e
-`skills/imageproductionfactory/`.
+Clone o repo e entre nele. A raiz precisa ter `ALVOS/` e `PROMPTS/`. A skill
+`imageproductionfactory` vem do hub
+[`LucasOl-Skills`](https://github.com/LucasOl1337/LucasOl-Skills), instalada em
+`~/.agents/skills` ou apontada por `LUCASOL_SKILLS_REPO`.
 
 ## 2. Sobe o Estúdio
 
@@ -82,7 +84,7 @@ imagens não.
 A janela só dispara o runner Python. O mesmo comando, à mão:
 
 ```
-python skills/imageproductionfactory/scripts/image_production_factory.py full-library --target ANA --focus estudio-v1 --providers codex
+python ~/.agents/skills/imageproductionfactory/scripts/image_production_factory.py full-library --root . --target ANA --focus estudio-v1 --providers codex
 ```
 
 Outros: `selected-library --case-ids 8,50,511`, `full-templates`,

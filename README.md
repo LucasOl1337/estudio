@@ -47,6 +47,9 @@ são horas. Isso é o provedor, não a janela.
 
 Precisa de Rust, Python 3.11+ com `httpx` e `Pillow`, e o 9Router local
 ligado (é de lá que saem as credenciais, o app nunca grava token).
+Instale também as skills de
+[`LucasOl-Skills`](https://github.com/LucasOl1337/LucasOl-Skills); o app resolve
+`imageproductionfactory` em `~/.agents/skills` ou por `LUCASOL_SKILLS_REPO`.
 
 ```
 cd apps/factory-studio

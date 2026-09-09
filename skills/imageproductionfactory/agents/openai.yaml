@@ -1,7 +1,0 @@
-interface:
-  display_name: "Image Production Factory"
-  short_description: "Intent-first dual-provider image production"
-  default_prompt: "Use $imageproductionfactory to plan, produce, and visually verify a reference-faithful image batch."
-
-policy:
-  allow_implicit_invocation: true
